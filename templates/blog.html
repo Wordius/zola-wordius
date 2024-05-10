@@ -9,12 +9,12 @@
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
     {% for page in section.pages %}
     <li>
-    <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
+      <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
 
-    <h2>
-      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-    </h2>
-      <p>{{ page.description }}</p>
+      <h2>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      </h2>
+        <p>{{ page.description }}</p>
     </li>
     {% endfor %}
   </ul>
