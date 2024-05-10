@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-{{ image_full(path="/img/roma-and-dotty-2.png", width="720" caption="Roma and Dotty, our two lurchers") }}
+{{ image_full(path="/about/roma-and-dotty-2.png", width="720" caption="Roma and Dotty, our two lurchers") }}
 
 This site is about my experiences of having a stroke, albeit a minor one, a transient ischaemic attack or TIA for short.
 
