@@ -2,13 +2,13 @@
 
 {% block content %}
 <article class="post">
-<h1 class="post-title">
-  {{ page.title }}
-</h1>
-<p class="subtitle"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
-<h2 class="post-desc">{{ page.description }}</h2>
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+  <p class="subtitle"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
+  <h2 class="post-desc">{{ page.description }}</h2>
 
-{{ page.content | safe }}
+  {{ page.content | safe }}
 
-</article>
+ </article>
 {% endblock content %}

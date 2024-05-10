@@ -2,20 +2,21 @@
 
 {% block content %}
 <article class="post">
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-  {% for page in section.pages %}
-  <li>
-	<p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
+  <h1 class="title">
+    {{ section.title }}
+  </h1>
+  <ul>
+    <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+    {% for page in section.pages %}
+    <li>
+    <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
 
-  <h2>
-  	<a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-  </h2>
-  </li>
-  {% endfor %}
-</ul>
+    <h2>
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </h2>
+      <p>{{ page.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
 </article>
 {% endblock content %}
