@@ -2,7 +2,9 @@
 title = "Getting to the hospital"
 description = "So I said I’d had a stroke, but I didn’t know. All I knew was that something was wrong. I wasn’t myself"
 date = 2023-08-12
-tags = "stroke"
+
+[taxonomies]
+tags = ["stroke", "pain"]
 +++
 
 {{ image(path="roma-and-dotty-2.png", caption="Roma and Dotty, our two lurchers") }}

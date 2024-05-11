@@ -29,7 +29,20 @@
     </header>
     
     <main>
-      {% block content %} {% endblock %}
+		{% block content %} 
+			{% block title %}
+				{{ taxonomy.name | capitalize }} &middot; {{ config.title }}
+			{% endblock title %}
+
+		<h1>{{ taxonomy.name | capitalize }}</h1>
+	  
+		<ul>
+		  {% for page in terms %}
+			<li><a href="{{ page.permalink }}">{{ page.name | capitalize }}</a></li>
+		  {% endfor %}
+		</ul>
+	  {% endblock content %}
+	
     </main>
     
 		<div id="site-footer">

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% if page.taxonomies.tags %}
+tags: 
+{% for tag in page.taxonomies.tags %}
+  <a href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+{% endfor %}
+{% endif %}

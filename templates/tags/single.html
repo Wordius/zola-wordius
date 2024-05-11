@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% block title %}
+    {{ term.name | capitalize }} &middot; {{ config.title }}
+  {% endblock title %}
+
+  <h1>{{ term.name | capitalize }}</h1>
+
+  <ul class="homepage-list" style="padding-left: 0;">
+    {% for page in term.pages | sort(attribute="date") | reverse %}
+      <li>
+        {% if page.date %}
+          <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%d %B %Y") }}</time>
+        {% endif %}
+      </li>
+      <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+    {% endfor %}
+  </ul>
+
+  {% endblock content %}

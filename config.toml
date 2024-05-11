@@ -1,10 +1,16 @@
 # The URL the site will be built for
 base_url = "https://wordius.com"
 
+title = "Wordius"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
 generate_feed = true
+
+taxonomies = [
+    {name = "tags", rss = true },
+]
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
