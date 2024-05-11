@@ -12,7 +12,7 @@
     {% for page in term.pages | sort(attribute="date") | reverse %}
       <li>
         {% if page.date %}
-          <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%d %B %Y") }}</time>
+          {{ page.date }}
         {% endif %}
       </li>
       <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>

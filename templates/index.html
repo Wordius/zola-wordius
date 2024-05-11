@@ -7,4 +7,10 @@
   <p>Intro</p>
   <p>Post list</p>
   <p>Click <a href="/blog">here</a> to see my posts.</p>
+
+  {% set post_section = get_section(path="blog/_index.md") %}
+    {% for post in post_section.pages %}
+      <div><a href="{{post.permalink}}">{{post.title}}</a></div>
+    {% endfor %}
+
 {% endblock content %}

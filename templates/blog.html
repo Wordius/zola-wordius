@@ -19,12 +19,36 @@
     {% endfor %}
   </ul>
 </article>
-<nav class="pagination">
-  {% if paginator.previous %}
-      <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
-  {% endif %}
-  {% if paginator.next %}
-      <a class="next" href="{{ paginator.next }}">Next ›</a>
-  {% endif %}
-</nav>
+
+{% if paginator %}
+<div>
+  <ul class="postlist">
+    {% for post in paginator.pages %}
+    <li class="postlist-item">
+      <div class="date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      </div>
+      <div class="home-head">
+         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      </div>
+      <p>{{ post.description }}</p>
+    </li>
+    {% endfor %}
+  </ul> 
+
+</div>
+{% endif %}
+{% if paginator.previous %}
+  <a href="{{ paginator.previous }}">&lt;</a>
+{% else %}
+  &lt;
+{% endif %}
+<span>{{ paginator.current_index }}</span>
+{% if paginator.next %}
+  <a href="{{ paginator.next }}">&gt;</a>
+{% else %}
+  &gt;
+{% endif %}
+
 {% endblock content %}
+

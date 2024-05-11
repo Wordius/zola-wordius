@@ -373,7 +373,6 @@ article p, article ul {
 	text-decoration-thickness: 1px;
 }
 .home-head {
-	padding-bottom: 1rem;
 }
 .postlist-description {
 	color: var(--color-gray-90);
