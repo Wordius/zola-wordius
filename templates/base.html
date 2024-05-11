@@ -19,20 +19,23 @@
     <header>
       <a href="/" class="home-link">WORDIUS</a>
 
-      <nav>
-				<ul class="nav">
-					<li class="nav-item"><a href="/">home</a></li>
-					<li class="nav-item"><a href="/blog">archive</a></li>
-					<li class="nav-item"><a href="/about">about</a></li>
-				</ul>
-			</nav>
-    </header>
+      	<nav>
+			<ul class="nav">
+				<li class="nav-item"><a href="/">home</a></li>
+				<li class="nav-item"><a href="/blog">archive</a></li>
+				<li class="nav-item"><a href="/about">about</a></li>					
+				<li class="nav-item"><a href="/tags">tags</a></li>
+			</ul>
+		</nav>
+
+	</header>
     
     <main>
-		{% block content %} 
-			{% block title %}
-				{{ taxonomy.name | capitalize }} &middot; {{ config.title }}
-			{% endblock title %}
+
+	{% block content %} 
+		{% block title %}
+			{{ taxonomy.name | capitalize }} &middot; {{ config.title }}
+		{% endblock title %}
 
 		<h1>{{ taxonomy.name | capitalize }}</h1>
 	  
@@ -41,41 +44,12 @@
 			<li><a href="{{ page.permalink }}">{{ page.name | capitalize }}</a></li>
 		  {% endfor %}
 		</ul>
-	  {% endblock content %}
+	{% endblock content %}
 	
     </main>
     
-		<div id="site-footer">
+	{% include "partials/footer.html" %}
 
-			<div id="colophon">
-				<ul>
-					<li>Copyright &copy; Jeff Porter 2012–</li>
-					<li><a href="/">About this site</a></li>
-					<li><a href="/">Colophon</a></li>
-				</ul>
-			</div> <!-- colophon -->
-
-			<div id="promotion">
-				<ul class="social">
-					<li><a href="https://mastodon.social/@macminded"><img src="/img/brand-mastodon.png" width="28" height="28"></a></li>
-					<li>
-						<a href="https://bsky.app/profile/macminded.co.uk"><img src="/img/brand-bluesky.png" width="28" height="28"></a>
-					</li>
-					<li>
-						<a href="/feed/atom.xml"><img src="/img/rss.png" width="28" height="28"></a>
-					</li>
-					<!-- <li>
-						<a href="https://www.buymeacoffee.com/jeffpporteD">
-							<img src="/img/black-button.png" alt="Buy me a coffee" width="131">
-						</a>
-					-->
-					</li>
-				</ul>
-			</div> <!-- promotion -->
-		</div> <!-- site-footer -->
-			<p><img src="/img/noun-leaf-1006638.png" width="14" height="14" alt="leaf"> Written by human intelligence or the lack thereof <img src="/img/noun-leaf-1006638.png" width="14" height="14" alt="leaf"></p>
-
-		</footer>
 </body>
 
 </html>
