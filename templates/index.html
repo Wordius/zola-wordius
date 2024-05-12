@@ -2,15 +2,32 @@
 
 {% block content %}
   <h1 class="title">
-    This is my blog made with Zola.
+    Hello
   </h1>
   <p>Intro</p>
-  <p>Post list</p>
-  <p>Click <a href="/blog">here</a> to see my posts.</p>
+
+  <h2>Latest Posts</h2>
 
   {% set post_section = get_section(path="blog/_index.md") %}
-    {% for post in post_section.pages %}
-      <div><a href="{{post.permalink}}">{{post.title}}</a></div>
-    {% endfor %}
+  {% set limit = 3 %}
+  {% for post in post_section.pages %}
 
+{% if loop.index <= limit %}
+  <ul class="postlist">
+    <li class="postlist-item">
+      <div class="date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      </div>
+      <div class="home-head">
+         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      </div>
+      <p>{{ post.description }}</p>
+    </li>
+  </ul>  
+  {% if not loop.index == limit %},{% endif %}
+{% endif %}
+
+  {% endfor %}
+  
+  <p>Read more</p>
 {% endblock content %}

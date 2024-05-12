@@ -9,7 +9,7 @@ compile_sass = false
 generate_feed = true
 
 taxonomies = [
-    {name = "tags", rss = true },
+    {name = "tags", paginate_by = 3, rss = true },
 ]
 
 # Whether to build a search index to be used later on by a JavaScript library
@@ -26,3 +26,5 @@ highlight_code = true
 
 # The copyright notice
 copyright = "{year}"
+
+featureSection = “blog”
