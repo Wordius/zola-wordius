@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://wordius.com"
+base_url = "https://wordius.netlify.app"
 
 title = "Wordius"
 
@@ -26,5 +26,3 @@ highlight_code = true
 
 # The copyright notice
 copyright = "{year}"
-
-featureSection = “blog”
