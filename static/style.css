@@ -2,9 +2,9 @@
 
 /* Defaults */
 :root {
-	--font-family-sans: fontin-sans, Helvetica, -apple-system, system-ui, sans-serif;
+	--font-family-sans: alegreyasans, Helvetica, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-	--font-family-serif: fontin, Georgia, serif;
+	--font-family-serif: alegreya, Georgia, serif;
 }
 
 /*	--font-family: raleway, calluna-sans, Helvetica, -apple-system, system-ui, sans-serif;
@@ -79,7 +79,7 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family-serif);
+	font-family: var(--font-family-sans);
 	background-color: var(--background-color);
 	/*color: var(--text-color);*/
 }
@@ -317,9 +317,10 @@ figcaption {
 /* Posts list: Headings */
 
 h1.post-title {
-	font-size: var(--font-size-xxl);
-	font-family: var(--font-family-sans);
-	font-weight: 600;
+	font-size: var(--font-size-xxxl);
+	font-family: var(--font-family-serif);
+	font-weight: 400;
+	margin-top: 0;
 }
 h2 {
 	font-family: var(--font-family-serif);
@@ -336,7 +337,7 @@ h1.post-title, h2.post-desc {
 	line-height: 1.4; 
 }
 h3 {
-	font-family: var(--font-family-sans);
+	font-family: var(--font-family-serif);
 	font-size: var(--font-size-md);
 	font-weight: 100;
 }
@@ -350,6 +351,7 @@ article p, article ul, article ol {
 .postlist {
 	list-style: none;
 	padding: 0;
+	margin-bottom: 0;
 }
 .postlist-item {
 	display: block;
@@ -358,6 +360,7 @@ article p, article ul, article ol {
 	align-items: baseline;
 	/*counter-increment: start-from -1;*/
 	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 	border-bottom: 1px dashed var(--color-gray-50);
 }
 /*.postlist-item:before {
@@ -373,7 +376,7 @@ article p, article ul, article ol {
 	font-size: 0.75em; /* 13px /16 */
 	color: var(--color-gray-90);
 }
-.postlist-date {
+.postlist-date, .post-date {
 	font-weight: 700;
 	word-spacing: -0.5px;
 	text-transform: uppercase;
@@ -423,6 +426,13 @@ article p, article ul, article ol {
 }
 
 /* Direct Links / Markdown Headers */
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 .header-anchor {
 	text-decoration: none;
 	font-style: normal;

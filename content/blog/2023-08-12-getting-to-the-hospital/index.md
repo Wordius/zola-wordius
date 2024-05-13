@@ -6,7 +6,6 @@ date = 2023-08-12
 [taxonomies]
 tags = ["stroke", "pain"]
 +++
-
 {{ image(path="roma-and-dotty-2.png", caption="Roma and Dotty, our two lurchers") }}
 
 My wife picked up the phone. She called ‘our’ doctor first, but was unable to get past the receptionist, despite telling her my situation. (Gone are the days of home visits and caring doctors.)

@@ -1,47 +1,54 @@
 @font-face {
-    font-family: fontin;
-    src: url('/fonts/fontin-regular.ttf') format('woff2'),
-         url('/fonts/fontin-regular.ttf') format('woff');
+    font-family: alegreya;
+    src: url('/fonts/alegreya-regular.ttf') format('woff2'),
+         url('/fonts/alegreya-regular.ttf') format('woff');
   }
   
   @font-face {
-    font-family: fontin;
-    src: url('/fonts/fontin-bold.ttf') format('woff2'),
-         url('/fonts/fontin-bold.ttf') format('woff');
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: fontin;
-    src: url('/fonts/fontin-italic.ttf') format('woff2'),
-         url('/fonts/fontin-italic.ttf') format('woff');
+    font-family: alegreya;
+    src: url('/fonts/alegreya-italic.ttf') format('woff2'),
+         url('/fonts/alegreya-italic.ttf') format('woff');
     font-style: italic;
   }
   
   @font-face {
-    font-family: fontin-sans;
-  src: url('/fonts/fontin_sans_R_45b.otf') format('woff2'),
-       url('/fonts/fontin_sans_R_45b.otf') format('woff');
+    font-family: alegreya;
+    src: url('/fonts/alegreya-bold.ttf') format('woff2'),
+         url('/fonts/alegreya-bold.ttf') format('woff');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: alegreya;
+    src: url('/fonts/alegreya-bolditalic.ttf') format('woff2'),
+         url('/fonts/alegreya-bolditalic.ttf') format('woff');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: alegreyasans;
+  src: url('/fonts/alegreyasans-regular.ttf') format('woff2'),
+       url('/fonts/alegreyasans-regular.ttf') format('woff');
 }
 
 @font-face {
-  font-family: fontin-sans;
-  src: url('/fonts/fontin_sans_B_45b.otf') format('woff2'),
-       url('/fonts/fontin_sans_B_45b.oft') format('woff');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: fontin-sans;
-  src: url('/fonts/fontin_sans_I_45b.otf') format('woff2'),
-       url('/fonts/fontin_sans_I_45b.otf') format('woff');
+  font-family: alegreyasans;
+  src: url('/fonts/alegreyasans-italic.ttf') format('woff2'),
+       url('/fonts/alegreyasans-italic.ttf') format('woff');
   font-style: italic;
 }
 
 @font-face {
-  font-family: fontin-sans;
-  src: url('/fonts/fontin_sans_BI_45b.otf') format('woff2'),
-       url('/fonts/fontin_sans_BI_45b.otf') format('woff');
+  font-family: alegreyasans;
+  src: url('/fonts/alegreyasans-bold.ttf') format('woff2'),
+       url('//fonts/alegreyasans-bold.ttf') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: alegreyasans;
+  src: url('/fonts/alegreyasans-bolditalic.ttf') format('woff2'),
+       url('/fonts/alegreyasans-bolditalic.ttf') format('woff');
   font-weight: 700;
   font-style: italic;
 }

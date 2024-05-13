@@ -18,10 +18,10 @@
       <div class="date>">
         /// <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
-      <div class="home-head">
+      <div class="postlist-head">
          <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
       </div>
-      <p>{{ post.description }}</p>
+      <p class="postlist-description">{{ post.description }}</p>
     </li>
   </ul>  
   {% if not loop.index == limit %},{% endif %}
@@ -30,4 +30,30 @@
   {% endfor %}
   
   <p>Read more</p>
+
+  <h2>Featured article</h2>
+
+  {% set post_section = get_section(path="articles/_index.md") %}
+  {% set limit = 1 %}
+  {% for post in post_section.pages %}
+
+{% if loop.index <= limit %}
+  <ul class="postlist">
+    <li class="postlist-item">
+      <div class="date>">
+        /// <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      </div>
+      <div class="postlist-head">
+         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      </div>
+      <p class="postlist-description">{{ post.description }}</p>
+    </li>
+  </ul>  
+  {% if not loop.index == limit %},{% endif %}
+{% endif %}
+
+  {% endfor %}
+  
+  <p>Read more</p>
+
 {% endblock content %}
