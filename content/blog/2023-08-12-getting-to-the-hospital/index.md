@@ -6,13 +6,14 @@ date = 2023-08-12
 [taxonomies]
 tags = ["stroke", "pain"]
 +++
-{{ image(path="roma-and-dotty-2.png", caption="Roma and Dotty, our two lurchers") }}
+
+{{ image(path="roma-and-dotty-2.png", width="684", caption="Caption here") }}
 
 My wife picked up the phone. She called ‘our’ doctor first, but was unable to get past the receptionist, despite telling her my situation. (Gone are the days of home visits and caring doctors.)
 
 All the time I’m thinking FAST, from watching the TV’s public information films. F – facial drooping; A – arm weakness; S – speech difficulties; T –to call the emergency services and go. Fast is the way you’re supposed to react to someone having one. So you catch the stroke happening, not pick up the pieces after all the damage has been done.
 
-The ambulance service was no better: “It’ll be a couple of hours before we can get to you. Are you willing to wait?” No.
+She dialled 999, but the ambulance service was no better: “It’ll be a couple of hours before we can get to you. Are you willing to wait?” No.
 
 She said we should go in the car. But which hospital was her next question. Peterborough or Grantham? Grantham was the nearest by a couple of miles; Peterborough was further, but bigger. Should be able to cope. Should be equipped. In truth, we had no idea, which was best kitted out for dealing with a stroke. We opted for Peterborough.
 

@@ -4,54 +4,58 @@
   <h1 class="title">
     Hello
   </h1>
-  <p>Intro</p>
-
-  <h2>Latest Posts</h2>
+  <div class="site-intro">
+    <p class="larger">Some text here about the site’s purpose and how it looks.</p>
+    <p>Welcome text</p>
+  </div>
+  <h2 class="featured">Latest Posts</h2>
 
   {% set post_section = get_section(path="blog/_index.md") %}
   {% set limit = 3 %}
-  {% for post in post_section.pages %}
-
-{% if loop.index <= limit %}
   <ul class="postlist">
+    {% for post in post_section.pages %}
+      {% if loop.index <= limit %}
     <li class="postlist-item">
       <div class="date>">
-        /// <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
       <div class="postlist-head">
-         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+          <h2 class="postlist-title">
+            <a href="{{ post.permalink }}">{{ post.title }}</a>
+          </h2>
       </div>
       <p class="postlist-description">{{ post.description }}</p>
     </li>
+  {% if not loop.index == limit %}
+  {% endif %}
   </ul>  
-  {% if not loop.index == limit %},{% endif %}
-{% endif %}
-
+  {% endif %}
   {% endfor %}
+
   
   <p>Read more</p>
 
-  <h2>Featured article</h2>
+  <h2 class="featured">Featured article</h2>
 
   {% set post_section = get_section(path="articles/_index.md") %}
   {% set limit = 1 %}
-  {% for post in post_section.pages %}
-
-{% if loop.index <= limit %}
   <ul class="postlist">
+    {% for post in post_section.pages %}
+    {% if loop.index <= limit %}
     <li class="postlist-item">
-      <div class="date>">
-        /// <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      <div class="postlist-date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
-      <div class="postlist-head">
-         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      <div>
+         <h2 class="postlist-title">
+            <a href="{{ post.permalink }}">{{ post.title }}</a>
+          </h2>
       </div>
       <p class="postlist-description">{{ post.description }}</p>
     </li>
-  </ul>  
   {% if not loop.index == limit %},{% endif %}
-{% endif %}
-
+  </ul>  
+  {% endif %}
   {% endfor %}
   
   <p>Read more</p>

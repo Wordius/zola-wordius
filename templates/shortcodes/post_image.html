@@ -1,0 +1,11 @@
+{% if path is containing(page.components | first) %}
+    {% set imgpath = path  %}
+{% else %}
+    {% set imgpath = page.components | concat(with = path) | join(sep = "/") %}
+{% endif %}
+
+{% set image = resize_image(path=imgpath, width=684, op="fit_width") %}
+<figure>
+    <a href="{{ image.url }}"><img src="{{ image.url }}" class="responsive"/></a>
+    {% if caption %}<figcaption>{{ caption }}</figcaption>{% endif %}
+</figure>

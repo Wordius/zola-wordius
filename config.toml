@@ -15,6 +15,8 @@ taxonomies = [
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+# ignored_content = ["*.{gif,jpg,png}"]
+
 [markdown]
 
 # Whether to do syntax highlighting

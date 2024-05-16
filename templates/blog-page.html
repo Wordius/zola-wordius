@@ -5,7 +5,7 @@
   <h1 class="post-title">
     {{ page.title }}
   </h1>
-  <p class="post-date"><strong>/// {{ page.date | date(format="%d %B %Y") }}</strong></p>
+  <p class="post-date"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
   <h2 class="post-desc">{{ page.description }}</h2>
   
 {% if page.taxonomies.tags %}
