@@ -77,15 +77,15 @@ html {
 }
 html,
 body {
-	padding: 0;
-	margin: 0 auto;
+	padding: 0 .5rem;
+	margin: .5rem auto;
 	font-family: var(--font-family-text);
 	background-color: var(--background-color);
 	/*color: var(--text-color);*/
 }
 
 body {
-	max-width: 40rem;
+	max-width: 36rem;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -184,7 +184,12 @@ ul.social li {
 }
 
 @media (max-width: 768px) {
-    #site-footer {
+
+.home-link {
+	margin-right: 0;
+}
+
+#site-footer {
 		flex-direction: column;
     }   
 }
@@ -302,8 +307,11 @@ img {
 .img-container > img {
 	max-width: 100%;
 	height: auto;
+	margin-bottom: 1rem;
 }
-img.responsive {
+
+/* PAGES IMAGES */
+img {
 	max-width: 100%;
 	height: auto;
 }
@@ -313,12 +321,16 @@ figure {
 figcaption {
 	font-family: var(--font-family-text);
 	font-size: var(--font-size-smmd);
-	margin: 1rem 0 2rem;
+	margin: 0 0 2rem;
 	text-align: left;
-	border-left: 1px solid var(--color-gray-50);
-	padding-left: 1rem;
+	/*border-left: 1px solid var(--color-gray-50);
+	padding-left: .5rem;*/
 }
-  
+ figcaption.page-img {
+	margin-top: 1rem;
+	padding-left: 1rem;
+	border-left: none;
+ } 
   /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 
 .intro-box {
