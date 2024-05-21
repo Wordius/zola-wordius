@@ -1,18 +1,24 @@
 # The URL the site will be built for
+
 base_url = "https://wordius.netlify.app"
 
 title = "Wordius"
 
-# Whether to automatically compile all Sass files in the sass directory
+# Compile all Sass files in the sass directory
+
 compile_sass = false
 
+# Feeds
+
 generate_feed = true
+
+# Taxonomies
 
 taxonomies = [
     {name = "tags", paginate_by = 3, rss = true },
 ]
 
-# Whether to build a search index to be used later on by a JavaScript library
+# Build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 # ignored_content = ["*.{gif,jpg,png}"]
@@ -27,4 +33,5 @@ highlight_code = true
 # Put all your custom variables here
 
 # The copyright notice
+
 copyright = "{year}"

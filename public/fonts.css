@@ -1,19 +1,70 @@
 @font-face {
-    font-family: robotoslab;
-    src: url('/fonts/robotoslab-regular.ttf') format('woff2'),
-         url('/fonts/robotoslab-regular.ttf') format('woff');
-         font-style: regular;
-         font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: robotoslab;
-    src: url('/fonts/robotoslab-medium.ttf') format('woff2'),
-         url('/fonts/robotoslab-medium.ttf') format('woff');
-        font-style: italic;
-        font-weight: 400;   
+        @font-face {
+          font-family: klinicslab;
+          src: url('/fonts/klinicslabbook.otf') format('woff2'),
+               url('/fonts/klinicslabbook.otf') format('woff');
         }
-  
+        
+        @font-face {
+          font-family: klinicslab;
+          src: url('/fonts/klinicslabbookit.otf') format('woff2'),
+               url('/fonts/klinicslabbookit.otf') format('woff');
+          font-style: italic;
+        }
+        
+        @font-face {
+          font-family: klinicslab;
+          src: url('/fonts/klinicslabbold.otf') format('woff2'),
+               url('/fonts/klinicslabbold.otf') format('woff');
+          font-weight: 700;
+        }
+        
+        @font-face {
+          font-family: klinicslab;
+          src: url('/fonts/klinicslabboldit.otf') format('woff2'),
+               url('/fonts/klinicslabboldit.otf') format('woff');
+          font-weight: 700;
+        }
+      
+        @font-face {
+           font-family: klinicslab;
+           src: url('/fonts/klinicslabmedium.otf') format('woff2'),
+                url('/fonts/klinicslabmedium.otf') format('woff');
+           font-weight: 700;
+         }
+      
+         @font-face {
+           font-family: klinicslab;
+           src: url('/fonts/klinicslabmediumit.otf') format('woff2'),
+                url('/fonts/klinicslabmediumit.otf') format('woff');
+           font-weight: 700;
+         }
+        @font-face {
+          font-family: raleway;
+          src: url('/fonts/raleway-regular.ttf') format('woff2'),
+               url('/fonts/raleway-regular.ttf') format('woff');
+        }
+        
+        @font-face {
+          font-family: raleway;
+          src: url('/fonts/raleway-italic.ttf') format('woff2'),
+               url('/fonts/raleway-italic.ttf') format('woff');
+          font-style: italic;
+        }
+        
+        @font-face {
+          font-family: raleway;
+          src: url('/fonts/raleway-bold.ttf') format('woff2'),
+               url('/fonts/raleway-bold.ttf') format('woff');
+          font-weight: 700;
+        }
+        
+        @font-face {
+          font-family: raleway;
+          src: url('/fonts/raleway-bolditalic.ttf') format('woff2'),
+               url('/fonts/raleway-bolditalic.ttf') format('woff');
+          font-weight: 700;
+        }  
 @font-face {
     font-family: alegreya;
     src: url('/fonts/alegreya-regular.ttf') format('woff2'),

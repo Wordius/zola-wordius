@@ -1,38 +1,41 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article class="post">
+<!--<article class="post">-->
   <h1 class="title">
     {{ section.title }}
   </h1>
-  <ul>
+<!--  <ul>
 
     {% for page in section.pages %}
     <li>
-      <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
-
-      <h2>
-        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-      </h2>
-        <p>{{ page.description }}</p>
+      <div class="postlist-head">
+        <h2>
+          <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        </h2>
+      </div>
+      <div class="postlist-date">
+          <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
+      </div>
+      <p class="postlist-description">{{ page.description }}</p>
     </li>
     {% endfor %}
   </ul>
 </article>
-
+-->
 <!-- PAGINATOR -->
 {% if paginator %}
 <div>
   <ul class="postlist">
     {% for post in paginator.pages %}
     <li class="postlist-item">
-      <div class="date>">
-        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
-      </div>
       <div class="postlist-head">
          <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
       </div>
-      <p>{{ post.description }}</p>
+      <div class="date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      </div>
+      <p class="postlist-description">{{ post.description }}</p>
     </li>
     {% endfor %}
   </ul> 

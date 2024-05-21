@@ -2,12 +2,13 @@
 
 {% block content %}
   <h1 class="title">
-    Hello
+    Let’s get started…
   </h1>
   <div class="site-intro">
-    <p class="larger">Some text here about the site’s purpose and how it looks.</p>
-    <p>Welcome text</p>
+    <p class="larger">This is my personal blog where I write about life after a stroke and put up my published (in print) articles on rare occasions. It used to be home to my writing about Apple apps and the like. But I am moving all of my notes over to <a href="https://macminded.co.uk">Macminded</a>. I will post here when that’s done.</p>
+    <p class="larger">It is brought to you by Zola, a static site generator, where content is written in Markdown then transformed into HTML pages with a little bit of CSS thrown in. No themes were used in the making of this site. Read more about how I got here in <a href="/about-this-site/">about this site</a>.</p>
   </div>
+
   <h2 class="featured">Latest Posts</h2>
 
   {% set post_section = get_section(path="blog/_index.md") %}
@@ -16,13 +17,13 @@
     {% for post in post_section.pages %}
       {% if loop.index <= limit %}
     <li class="postlist-item">
-      <div class="date>">
-        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
-      </div>
       <div class="postlist-head">
           <h2 class="postlist-title">
             <a href="{{ post.permalink }}">{{ post.title }}</a>
           </h2>
+      </div>
+      <div class="date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
       <p class="postlist-description">{{ post.description }}</p>
     </li>
@@ -33,7 +34,7 @@
   {% endfor %}
 
   
-  <p>Read more</p>
+  <p><a href="/blog/">More in the blog</a></p>
 
   <h2 class="featured">Featured article</h2>
 
@@ -43,13 +44,13 @@
     {% for post in post_section.pages %}
     {% if loop.index <= limit %}
     <li class="postlist-item">
-      <div class="postlist-date>">
-        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
-      </div>
-      <div>
+      <div class="postlist-head">
          <h2 class="postlist-title">
             <a href="{{ post.permalink }}">{{ post.title }}</a>
           </h2>
+      </div>
+      <div class="postlist-date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
       <p class="postlist-description">{{ post.description }}</p>
     </li>
@@ -58,6 +59,6 @@
   {% endif %}
   {% endfor %}
   
-  <p>Read more</p>
+  <p><a href="/articles/">More articles</a></p>
 
 {% endblock content %}
