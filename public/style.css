@@ -104,7 +104,7 @@ p:last-child {
 }
 
 main {
-	padding: 1rem;
+	padding: .5rem;
 }
 
 /* Header */
@@ -323,10 +323,9 @@ h2 {
 h2.featured {
 	font-family: var(--font-family-text);
 	font-size: var(--font-size-xl);
-	font-weight: 600;
+	font-weight: 900;
 	font-style: normal;
 	color: #c29304;
-	letter-spacing: 1px;
 }
 h2.post-desc {
 	font-family: var(--font-family-head);
