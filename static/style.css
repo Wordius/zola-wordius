@@ -2,7 +2,7 @@
 
 /* Defaults */
 :root {
-	--font-family-text: klinicslab, raleway, questa-slab, adelle, alegreyasans, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
+	--font-family-text: lato, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 	--font-family-head: Georgia, questa-slab, adelle, robotoslab, robotoslab, alegreya, serif;
 }
@@ -323,7 +323,8 @@ h2 {
 h2.featured {
 	font-family: var(--font-family-text);
 	font-size: var(--font-size-xl);
-	font-weight: 700;
+	font-weight: 600;
+	font-style: normal;
 	color: #c29304;
 	letter-spacing: 1px;
 }
