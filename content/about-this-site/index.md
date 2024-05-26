@@ -14,4 +14,4 @@ There are no Webmentions on this blog. Even saying I could get them up and runni
 
 ### How do I contact you?
 
-You can contact me on Mastodon or Bluesky, links below, or, alternatively, send me an [email](mailto:info@wordius.com).
+You can contact me on Mastodon or Bluesky, links below, or, alternatively, send me an [email](mailto&#58;info&#64;w&#111;%72&#100;&#37;69%75%73&#46;c&#111;m'>i&#110;fo&#64;wordiu&#115;&#46;co&#109;).

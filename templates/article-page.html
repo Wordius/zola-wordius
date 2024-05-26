@@ -9,9 +9,9 @@
   <h2 class="post-desc">{{ page.description }}</h2>
   
 {% if page.taxonomies.tags %}
-tags: 
+tags:  
 {% for tag in page.taxonomies.tags %}
-<a href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+<a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
 {% endfor %}
 {% endif %}
  
@@ -22,10 +22,10 @@ tags:
  {% if page.lower or page.higher %}
   <div class="post-nav">
     {% if page.lower %}
-      <span>Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a>
+      <p><span>Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></p>
     {% endif %}
     {% if page.higher %}
-    <span>Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a>
+    <p><span>Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></p>
     {% endif %}
   </div>
 {% endif %}

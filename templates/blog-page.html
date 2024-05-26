@@ -7,14 +7,15 @@
   </h1>
   <p class="post-date"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
   <h2 class="post-desc">{{ page.description }}</h2>
-  
-{% if page.taxonomies.tags %}
-tags: 
-{% for tag in page.taxonomies.tags %}
-<a href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
-{% endfor %}
-{% endif %}
- 
+   <div class="post-tags">   
+    {% if page.taxonomies.tags %}
+    tags: 
+    {% for tag in page.taxonomies.tags %}
+    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+    {%- if not loop.last %}{{ ", " | safe }}{% endif -%}
+    {% endfor %}
+    {% endif %}
+  </div> 
 {{ page.content | safe }}
 
  </article>
@@ -22,10 +23,10 @@ tags:
  {% if page.lower or page.higher %}
   <div class="post-nav">
     {% if page.lower %}
-      <span>Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a>
+      <p><span class="post-nav-dir">Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></p>
     {% endif %}
     {% if page.higher %}
-    <span>Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a>
+      <p><span class="post-nav-dir">Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></p>
     {% endif %}
   </div>
 {% endif %}

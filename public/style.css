@@ -170,6 +170,9 @@ header:after {
 .post-nav {
 	margin-top: 2rem;
 }
+.post-nav-dir {
+	font-weight: 700;
+}
 
 /* Footer */
 
@@ -414,6 +417,9 @@ article p, article ul, article ol {
 
 /* Tags */
 
+.post-tags {
+	margin-bottom: 1.5rem;
+}
 .post-tag {
 	display: inline-flex;
 	align-items: center;
