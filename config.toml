@@ -2,7 +2,7 @@
 
 base_url = "https://wordius.netlify.app"
 
-title = "Macminded"
+title = "Wordius"
 
 # Compile all Sass files in the sass directory
 
