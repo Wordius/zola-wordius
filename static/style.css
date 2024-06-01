@@ -338,7 +338,7 @@ h2.post-desc {
 h2.postlist-title {
 	color: var(--text-color-light);
 }
-.site-intro {
+.page-intro {
 	font-family: var(--font-family-head);
 	color: var(--color-gray-70); 
 	padding-bottom: 2rem;

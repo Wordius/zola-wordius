@@ -2,9 +2,10 @@
 title = "The books I’ve read"
 +++
 
-Not quite all the books I’ve ever read. My particular favourites show up as links. Those links lead to Amazon, which in turn provides me with a few pence for recommending them. It all goes toward the upkeep of this blog.
-
-We all go through different phases in life, including our choice of reading. One minute a subject or author might be fashionable, the next it’s not.  
+<div class="page-intro"> 
+<p class="larger">Not quite all the books I’ve ever read. My particular favourites show up as links. Those links lead to Amazon, which in turn provides me with a few pence for recommending them. It all goes toward the upkeep of this blog.</p>
+<p class="larger">We all go through different phases in life, including our choice of reading. One minute a subject or author might be fashionable, the next it’s not.</p>  
+</div>
 
 - Wounds of Honour, Anthony Riches
 - Bill Bryson’s African Diary, Bill Bryson
@@ -52,7 +53,7 @@ We all go through different phases in life, including our choice of reading. One
 - The Rainmaker, John Grisham
 - The Client, John Grisham
 - A Time to Kill, John Grisham
-- [Bombay Taxi](https://amzn.to/3wXRvz4), John Ramsay&emsp;*A top notch read even if it’s not by a top author. Tells the story of the London barrow boy’s family’s overland journey from England to Australia in the 1950s. I particularly liked the way they turned up at the RAC in London to get a road map – old-school Google Maps – for their journey.*
+- [Bombay Taxi](https://amzn.to/3wXRvz4), John Ramsay&emsp;&ensp;*A top notch read even if it’s not by a top author. Tells the story of the London barrow boy’s family’s overland journey from England to Australia in the 1950s. I particularly liked the way they turned up at the RAC in London to get a road map – old-school Google Maps – for their journey.*
 - Ship of Rome, John Stack
 - Cannery Row, John Steinbeck
 - [The Grapes of Wrath](https://amzn.to/3R3pzk4), John Steinbeck
