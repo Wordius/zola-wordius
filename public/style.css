@@ -205,10 +205,21 @@ footer {
   	flex: 1;
 	order: 1;  
 }
-#promotion {
+#slashpages {
 	flex: 1;
 	order: 2;    
 }
+
+ul.social {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+ul.social li {
+	display: inline-block;
+	border-bottom: none;
+}
+
 footer p {
 	font-size: var(--font-size-sm);
 	letter-spacing: 1px;
@@ -218,10 +229,6 @@ footer p {
 	margin-top: 0;
 }
 
-ul.social li {
-	display: inline-block;
-	border-bottom: none;
-}
 .links-nextprev {
 	list-style: none;
 	border-top: 1px dashed var(--color-gray-20);

@@ -87,6 +87,8 @@ title = "The books I’ve read"
 - Misery, Stephen King
 - The Stand, Stephen King
 - The Shining, Stephen King
+- [Thirteen](https://amzn.to/4c2Z4TX), Steve Cavanagh&emsp;&ensp;*Brilliant*
+- The Devil’s Advocate, Steve Cavanagh
 - The Girl with the Dragon Tattoo, Stieg Larsson
 - Look Homeward Angel, Thomas Wolfe
 - The Master Switch, Tim Wu
