@@ -209,7 +209,10 @@ footer {
 	flex: 1;
 	order: 2;    
 }
-
+.slash {
+	font-weight: 700;
+	color: #333;
+}
 ul.social {
 	margin: 0;
 	padding: 0;
@@ -217,6 +220,7 @@ ul.social {
 }
 ul.social li {
 	display: inline-block;
+	padding: 0 .5rem;
 	border-bottom: none;
 }
 
