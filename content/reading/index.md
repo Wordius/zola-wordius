@@ -24,7 +24,7 @@ title = "The books I’ve read"
 - The Gates of Rome, Conn Iggulden
 - Genghis: Lords of the Bow, Conn Iggulden
 - The Death of Kings, Conn Iggulden
-- The Dangerous Book for Boys, Conn Iggulden
+- [The Dangerous Book for Boys](https://amzn.to/3V94VQX), Conn Iggulden&ensp;*Great for those born in the 1950s, ’60s or ’70s; meaningless for those brought up in younger generations, who will likely be presented with a hard hat as well as a list of health and safety warnings about owning this book.*
 - Digital Fortress, Dan Brown
 - Angels & Demons, Dan Brown
 - These are the Days That Must Happen To You, Dan Walsh
