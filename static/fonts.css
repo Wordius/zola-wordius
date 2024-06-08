@@ -1,164 +1,51 @@
-        @font-face {
-          font-family: klinicslab;
-          src: url('/fonts/klinicslabbook.otf') format('woff2'),
-               url('/fonts/klinicslabbook.otf') format('woff');
-        }
-        
-        @font-face {
-          font-family: klinicslab;
-          src: url('/fonts/klinicslabbookit.otf') format('woff2'),
-               url('/fonts/klinicslabbookit.otf') format('woff');
-          font-style: italic;
-        }
-        
-        @font-face {
-          font-family: klinicslab;
-          src: url('/fonts/klinicslabbold.otf') format('woff2'),
-               url('/fonts/klinicslabbold.otf') format('woff');
-          font-weight: 700;
-        }
-        
-        @font-face {
-          font-family: klinicslab;
-          src: url('/fonts/klinicslabboldit.otf') format('woff2'),
-               url('/fonts/klinicslabboldit.otf') format('woff');
-          font-weight: 700;
-        }
-      
-        @font-face {
-           font-family: klinicslab;
-           src: url('/fonts/klinicslabmedium.otf') format('woff2'),
-                url('/fonts/klinicslabmedium.otf') format('woff');
-           font-weight: 700;
-         }
-      
-         @font-face {
-           font-family: klinicslab;
-           src: url('/fonts/klinicslabmediumit.otf') format('woff2'),
-                url('/fonts/klinicslabmediumit.otf') format('woff');
-           font-weight: 700;
-         }
-        @font-face {
-          font-family: raleway;
-          src: url('/fonts/raleway-regular.ttf') format('woff2'),
-               url('/fonts/raleway-regular.ttf') format('woff');
-        }
-        
-        @font-face {
-          font-family: raleway;
-          src: url('/fonts/raleway-italic.ttf') format('woff2'),
-               url('/fonts/raleway-italic.ttf') format('woff');
-          font-style: italic;
-        }
-        
-        @font-face {
-          font-family: raleway;
-          src: url('/fonts/raleway-bold.ttf') format('woff2'),
-               url('/fonts/raleway-bold.ttf') format('woff');
-          font-weight: 700;
-        }
-        
-        @font-face {
-          font-family: raleway;
-          src: url('/fonts/raleway-bolditalic.ttf') format('woff2'),
-               url('/fonts/raleway-bolditalic.ttf') format('woff');
-          font-weight: 700;
-        }  
 @font-face {
-    font-family: alegreya;
-    src: url('/fonts/alegreya-regular.ttf') format('woff2'),
-         url('/fonts/alegreya-regular.ttf') format('woff');
-         font-style: regular;
-         font-weight: 400;
-  }
-  
-  @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-regular.ttf') format('woff2'),
-          url('/fonts/lato-regular.ttf') format('woff');
-          font-style: normal;
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_R_45b.oft') format('woff2'),
+          url('/fonts/Fontin_Sans_R_45b.otf') format('woff');
+      font-style: normal;
    }
    
    @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-italic.ttf') format('woff2'),
-          url('/fonts/lato-italic.ttf') format('woff');
-          font-style: italic;
-   }
-   
-   @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-bold.ttf') format('woff2'),
-          url('/fonts/lato-bold.ttf') format('woff');
-     font-weight: 700;
-     font-style: normal;
-   }
-   
-   @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-bolditalic.ttf') format('woff2'),
-          url('/fonts/lato-bolditalic.ttf') format('woff');
-     font-weight: 700;
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_I_45b.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_I_45b.otf') format('woff');
      font-style: italic;
    }
+   
    @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-black.ttf') format('woff2'),
-          url('/fonts/lato-black.ttf') format('woff');
-     font-weight: 900;
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Font_Sans_B_45Bb.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_B_45b.otf') format('woff');
+     font-style: normal;
+     font-weight: 700;
    }
+   
    @font-face {
-     font-family: lato;
-     src: url('/fonts/lato-blackitalic.ttf') format('woff2'),
-          url('/fonts/lato-blackitalic.ttf') format('woff');
-     font-weight: 900;
-   }   
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff2'),
+          url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff');
+      font-style: italic;
+     font-weight: 700;
+   }
+      
    @font-face {
-    font-family: alegreya;
-    src: url('/fonts/alegreya-italic.ttf') format('woff2'),
-         url('/fonts/alegreya-italic.ttf') format('woff');
-        font-style: italic;
-        font-weight: 400;   
-        }
-  
-  @font-face {
-    font-family: alegreya;
-    src: url('/fonts/alegreya-bold.ttf') format('woff2'),
-         url('/fonts/alegreya-bold.ttf') format('woff');
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: alegreya;
-    src: url('/fonts/alegreya-bolditalic.ttf') format('woff2'),
-         url('/fonts/alegreya-bolditalic.ttf') format('woff');
-    font-weight: 700;
-  }
-
-  @font-face {
-    font-family: alegreyasans;
-  src: url('/fonts/alegreyasans-regular.ttf') format('woff2'),
-       url('/fonts/alegreyasans-regular.ttf') format('woff');
-}
-
-@font-face {
-  font-family: alegreyasans;
-  src: url('/fonts/alegreyasans-italic.ttf') format('woff2'),
-       url('/fonts/alegreyasans-italic.ttf') format('woff');
-  font-style: italic;
-}
-
-@font-face {
-  font-family: alegreyasans;
-  src: url('/fonts/alegreyasans-bold.ttf') format('woff2'),
-       url('//fonts/alegreyasans-bold.ttf') format('woff');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: alegreyasans;
-  src: url('/fonts/alegreyasans-bolditalic.ttf') format('woff2'),
-       url('/fonts/alegreyasans-bolditalic.ttf') format('woff');
-  font-weight: 700;
-  font-style: italic;
-}
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Regular.ttf') format('woff2'),
+          url('/fonts/Fontin-Regular.ttf') format('woff');
+      font-style: normal;
+   }
+   
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Italic.ttf') format('woff2'),
+          url('/fonts/Fontin-Italic.ttf') format('woff');
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Bold.ttf') format('woff2'),
+          url('/fonts/Fontin-Bold.ttf') format('woff');
+     font-style: normal;
+     font-weight: 700;
+   }

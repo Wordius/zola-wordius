@@ -2,9 +2,9 @@
 
 /* Defaults */
 :root {
-	--font-family-text: lato, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
+	--font-family-text: Fontin_Sans_49, lato, robotoslab, Helvetica, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-	--font-family-head: Georgia, questa-slab, adelle, robotoslab, robotoslab, alegreya, serif;
+	--font-family-head: Fontin, Georgia, questa-slab, adelle, robotoslab, robotoslab, alegreya, serif;
 }
 
 /*	--font-family: raleway, calluna-sans, Helvetica, -apple-system, system-ui, sans-serif;
@@ -23,7 +23,7 @@
 
 	--text-color: var(--color-gray-90);
 	--text-color-light: var(--color-gray-70);
-	--text-color-link: #b28c1c; /* racing #004225; blue #082840;*/
+	--text-color-link: #7d610d; /* racing #004225; blue #082840;*/
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
@@ -68,8 +68,8 @@ body {
 	padding: 0 .5rem;
 	margin: .5rem auto;
 	font-family: var(--font-family-text);
+	/*letter-spacing: 1px;*/
 	background-color: var(--background-color);
-	/*color: var(--text-color);*/
 }
 
 body {
@@ -94,7 +94,6 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
 p:last-child {
 	margin-bottom: 0;
 }
@@ -102,7 +101,6 @@ p:last-child {
 	font-size: var(--font-size-md);
 	line-height: 1.5;
 }
-
 main {
 	padding: .5rem;
 }
@@ -254,6 +252,7 @@ table th {
 pre,
 code {
 	font-family: var(--font-family-monospace);
+	padding: .5rem;
 }
 pre:not([class*="language-"]) {
 	margin: .5em 0;
@@ -325,7 +324,7 @@ h1.post-title, h1.title {
 
 h1.title {
 	font-weight: 700;
-	color: #b28c1c;
+	color: #990000;
 }
 
 h2 {
@@ -339,7 +338,7 @@ h2.featured {
 	font-size: var(--font-size-xl);
 	font-weight: 900;
 	font-style: normal;
-	color: #c29304;
+	color: #990000;
 }
 h2.post-desc {
 	font-family: var(--font-family-head);
