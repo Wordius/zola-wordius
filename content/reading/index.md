@@ -94,3 +94,11 @@ title = "The books I’ve read"
 - The Master Switch, Tim Wu
 - The Hunt for Red October, Tom Clancy
 - When the Lion Feeds, Wilbur Smith
+
+## Index of pages
+
+- [About](/about)
+- [About this site](/about-this-site)
+- [Colophon](/colophon)
+- [Contact](/contact)
+- [Software I use](/uses)

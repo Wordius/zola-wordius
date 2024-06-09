@@ -12,6 +12,11 @@ That’s when I came across Zola. It sounded easier for me to cope with – no J
 
 There are no Webmentions on this blog. Even saying I could get them up and running, I’ve read too much about the cons as well as the pros. Nor are there any comments. I’ve been there in the past with WordPress and Disqus. All I can say is ‘spam’. It’s far too much to deal with aside from being a waste of time.
 
-### How do I contact you?
+## Index of pages
 
-You can contact me on Mastodon, linked below, or, alternatively, send me an [email](mailto&#58;info&#64;w&#111;%72&#100;&#37;69%75%73&#46;c&#111;m'>i&#110;fo&#64;wordiu&#115;&#46;co&#109;).
+- [About](/about)
+- [Colophon](/colophon)
+- [Contact](/contact)
+- [Reading matter](/reading)
+- [Software I use](/uses)
+

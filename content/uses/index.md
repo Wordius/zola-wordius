@@ -34,3 +34,11 @@ title = "The software I use"
 - **Podcasts**: What are they?
 - **Password management**: Bitwarden and Apple Keychain. Used to be 1Password
 - **Mastodon**: Ice Cubes
+
+## Index of pages
+
+- [About](/about)
+- [About this site](/about-this-site)
+- [Colophon](/colophon)
+- [Contact](/contact)
+- [Reading matter](/reading)
