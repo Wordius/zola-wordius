@@ -24,4 +24,4 @@ For me, that is a small price to pay. My broadband and phone provider, [Plusnet]
 
 The BT8500 Advanced Call Blocker phone and answering machine (twin handset pack) is available from [amazon.co.uk](http://www.amazon.co.uk/gp/product/B00LZTHUEO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00LZTHUEO&linkCode=as2&tag=since1964-21), priced at £48 at the time of writing. The BT8500 is also available with one, three or four handsets. 
 
-For more on dealing with nuisance calls, Ofcom has [this advice](http://consumers.ofcom.org.uk/phone/tackling-nuisance-calls-and-messages/).
+For more on dealing with nuisance calls, Ofcom has [this advice](https://www.ofcom.org.uk/online-safety/advice-for-consumers).
