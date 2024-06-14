@@ -8,6 +8,7 @@ title = "Useful pages on this site"
 
 - [About](/about)
 - [About this site](/about-this-site)
+- [Blogroll](/blogroll)
 - [Colophon](/colophon)
 - [Contact](/contact)
 - [Reading matter](/reading)
