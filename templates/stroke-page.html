@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="post">
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+  <p class="post-date"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
+  <h2 class="post-desc">{{ page.description }}</h2>
+  
+{% if page.taxonomies.tags %}
+tags:  
+{% for tag in page.taxonomies.tags %}
+<a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+{%- if not loop.last %}{{ ", " | safe }}{% endif -%}
+{% endfor %}
+{% endif %}
+ 
+{{ page.content | safe }}
+
+ </article>
+ 
+ {% if page.lower or page.higher %}
+  <div class="post-nav">
+    {% if page.lower %}
+      <p><span>Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></p>
+    {% endif %}
+    {% if page.higher %}
+    <p><span>Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></p>
+    {% endif %}
+  </div>
+{% endif %}
+
+{% endblock content %}
+

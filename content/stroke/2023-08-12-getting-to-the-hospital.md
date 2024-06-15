@@ -4,7 +4,7 @@ description = "So I said I’d had a stroke, but I didn’t know. All I knew was
 date = 2023-08-12
 
 [taxonomies]
-tags = ["stroke", "pain"]
+tags = ["stroke"]
 +++
 
 My wife picked up the phone. She called ‘our’ doctor first, but was unable to get past the receptionist, despite telling her my situation. (Gone are the days of home visits and caring doctors.)
