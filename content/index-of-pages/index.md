@@ -11,5 +11,6 @@ title = "Useful pages on this site"
 - [Blogroll](/blogroll)
 - [Colophon](/colophon)
 - [Reading matter](/reading)
+- [RSS feeds](/rss-feeds)
 - [Software I use](/uses)
 - [Contact](/contact)
