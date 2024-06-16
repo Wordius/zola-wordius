@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!--<article class="post">-->
+  <h1 class="title">
+    {{ section.title }}
+  </h1>
+<!--  <ul>
+
+    {% for page in section.pages %}
+    <li>
+      <div class="postlist-head">
+        <h2>
+          <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        </h2>
+      </div>
+      <div class="postlist-date">
+          <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
+      </div>
+      <p class="postlist-description">{{ page.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
+-->
+<!-- PAGINATOR -->
+{% if paginator %}
+<div>
+  <ul class="postlist">
+    {% for post in paginator.pages %}
+    <li class="postlist-item">
+      <div class="postlist-head">
+         <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+      </div>
+      <div class="date>">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      </div>
+      <p class="postlist-description">{{ post.description }}</p>
+    </li>
+    {% endfor %}
+  </ul> 
+
+</div>
+{% endif %}
+{% if paginator.previous %}
+  <a href="{{ paginator.previous }}">&lt;</a>
+{% else %}
+  &lt;
+{% endif %}
+<span>{{ paginator.current_index }}</span>
+{% if paginator.next %}
+  <a href="{{ paginator.next }}">&gt;</a>
+{% else %}
+  &gt;
+{% endif %}
+<!-- END PAGINATOR -->
+
+{% endblock content %}
+

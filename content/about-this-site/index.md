@@ -11,12 +11,3 @@ I got it up and running locally using Eleventy’s Base Blog, nothing more. But 
 That’s when I came across Zola. It sounded easier for me to cope with – no JS to worry about, or any of the other languages mentioned above. It’s just simple. Again the documentation could do with a bit if a polish, but aside from that it’s pretty much there. I got sections going again and feel comfortable enough with the system to create more when needed. So, Jeremy Prouillet – thank you!
 
 There are no Webmentions on this blog. Even saying I could get them up and running, I’ve read too much about the cons as well as the pros. Nor are there any comments. I’ve been there in the past with WordPress and Disqus. All I can say is ‘spam’. It’s far too much to deal with aside from being a waste of time.
-
-## Index of pages
-
-- [About](/about)
-- [Colophon](/colophon)
-- [Contact](/contact)
-- [Reading matter](/reading)
-- [Software I use](/uses)
-

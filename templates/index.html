@@ -9,12 +9,40 @@
     <p class="larger">It is brought to you by Zola, a static site generator, and no themes were used in the making of this site. Read more about how I got here in <a href="/about-this-site/">about this site</a>.</p>
   </div>
 
+  <!-- JOURNAL -->
+
+<h2 class="featured">Journal</h2>
+
+{% set post_section = get_section(path="journal/_index.md") %}
+{% set limit = 1 %}
+<ul class="postlist">
+  {% for post in post_section.pages %}
+  {% if loop.index <= limit %}
+  <li class="postlist-item">
+    <div class="postlist-head">
+       <h2 class="postlist-title">
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+        </h2>
+    </div>
+    <div class="postlist-date>">
+      <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+    </div>
+    <p class="postlist-description">{{ post.description }}</p>
+  </li>
+{% if not loop.index == limit %}
+{% endif %}
+</ul>  
+{% endif %}
+{% endfor %}
+
+<p><a href="/journal/">More in the journal</a></p>
+
   <!-- BLOG -->
-  
+
   <h2 class="featured">Latest posts</h2>
 
   {% set post_section = get_section(path="blog/_index.md") %}
-  {% set limit = 3 %}
+  {% set limit = 1 %}
   <ul class="postlist">
     {% for post in post_section.pages %}
       {% if loop.index <= limit %}

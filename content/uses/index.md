@@ -5,10 +5,10 @@ title = "The software I use"
 <div class="page-intro"> 
 <p class="larger">Because people like to know these things…</p>
 <p class="larger">As I’ve got older, my life has become ever more Apple-centric</p>
-
 </div>
 
-- **Mail client**: Spark (iOS) and Postbox
+- **Adobe**: InDesign, Photoshop, Illustrator. Currently investigating alternatives. More soon
+- **Mail client**: Spark (iOS), Postbox, Thunderbird (free/donate)
 - **Mail server**: iCloud+
 - **Notes and other writing**: Obsidian
 - **To do**: iOS Reminders
@@ -22,7 +22,7 @@ title = "The software I use"
 - **Chat**: Apple Messages
 - **Bookmarks**: Raindrop.io
 - **Read it later**: Omnivore
-- **RSS**: NetNewsWire
+- **RSS**: NetNewsWire/Omnivore
 - **Word processing**: Obsidian
 - **Spreadsheets**: Numbers
 - **Presentations:** What for? To simplify things; to list a series of neat, simple bullet points that people can understand. I can do that in an email. No thanks
@@ -34,11 +34,3 @@ title = "The software I use"
 - **Podcasts**: What are they?
 - **Password management**: Bitwarden and Apple Keychain. Used to be 1Password
 - **Mastodon**: Ice Cubes
-
-## Index of pages
-
-- [About](/about)
-- [About this site](/about-this-site)
-- [Colophon](/colophon)
-- [Contact](/contact)
-- [Reading matter](/reading)

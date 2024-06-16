@@ -27,11 +27,3 @@ This site tells my story since that time â€“ what has happened, what to expectâ€
 *** 
 
 If you find anything remotely useful, help me to support this site by [buying me a coffee](https://www.buymeacoffee.com/jeffpporteD). All help is appreciated.
-
-## Index of pages
-
-- [About this site](/about-this-site)
-- [Colophon](/colophon)
-- [Contact](/contact)
-- [Reading matter](/reading)
-- [Software I use](/uses)

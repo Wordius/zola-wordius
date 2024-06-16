@@ -50,4 +50,3 @@ There are many so-called digital gardens out there, but I prefer to call them jo
 - [Lost Type Co-op](http://www.losttype.com)
 - [Open Foundry](https://open-foundry.com/fonts)
 - [Raw Pixel](https://www.rawpixel.com)
-- 
