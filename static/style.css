@@ -450,6 +450,19 @@ article p, article ul, article ol {
 .postlist-item > .post-tag {
 	align-self: center;
 }
+blockquote {
+	font-family: var(--font-family-text);
+	font-style: italic;
+}
+blockquote p {
+	color: var(--color-gray-70);
+}
+blockquote p:last-child {
+	font-family: var(--font-family-head);
+	font-size: var(--font-size-smmd);
+	font-style: normal;
+	color: var(--color-gray-90);
+}
 
 /* Tags list */
 
