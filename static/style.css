@@ -58,7 +58,7 @@ html {
 	-webkit-text-size-adjust: none;
 	text-size-adjust: none;
   }
-  
+
 html {
 		--font-size-sm: 0.75rem;   
 		--font-size-smmd: 0.875rem;   
@@ -373,6 +373,9 @@ h3 {
 
 /* Postlist: content */
 
+article {
+	margin-bottom: 1rem;
+}
 article p, article ul, article ol {
 	line-height: 1.65;
 	color: var(--color-gray-90);
@@ -460,6 +463,19 @@ article p, article ul, article ol {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* COFFEE */
+
+.coffee {
+	margin-top: 1rem;
+	border-left: 3px solid #7d610d;
+	padding-left: 1rem;
+}
+.coffee-txt {
+	margin-top: 2rem;
+	line-height: 1.5;
+	color: #555555;
 }
 
 /* Direct Links / Markdown Headers */
