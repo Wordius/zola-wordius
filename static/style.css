@@ -469,6 +469,7 @@ article p, article ul, article ol {
 
 .coffee {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	border-left: 3px solid #7d610d;
 	padding-left: 1rem;
 }
