@@ -16,9 +16,12 @@
     {% endfor %}
     {% endif %}
   </div> 
-{{ page.content | safe }}
 
- </article>
+  <div class="post-content">
+    {{ page.content | safe }}
+  </div>
+
+</article>
 
  {% include "partials/coffee.html" %}
 

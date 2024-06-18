@@ -15,10 +15,12 @@ tags:
 {%- if not loop.last %}{{ ", " | safe }}{% endif -%}
 {% endfor %}
 {% endif %}
- 
-{{ page.content | safe }}
 
- </article>
+    <div class="post-content">
+      {{ page.content | safe }}
+    </div>
+
+</article>
 
  {% include "partials/coffee.html" %}
  

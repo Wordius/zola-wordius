@@ -362,7 +362,10 @@ h2.postlist-title {
 	margin-bottom: 1rem;
 	border-bottom: 2px solid var(--color-gray-50);
 }
-h1.post-title, h2.post-desc {
+h1.post-title {
+	line-height: 1.2;
+}
+h2.post-desc {
 	line-height: 1.4; 
 }
 h3 {
@@ -476,6 +479,12 @@ blockquote p:last-child {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Post content */
+
+.post-content {
+	margin-top: 2rem;
 }
 
 /* COFFEE */

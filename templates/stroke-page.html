@@ -8,15 +8,17 @@
   <p class="post-date"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
   <h2 class="post-desc">{{ page.description }}</h2>
   
-{% if page.taxonomies.tags %}
-tags:  
-{% for tag in page.taxonomies.tags %}
-<a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
-{%- if not loop.last %}{{ ", " | safe }}{% endif -%}
-{% endfor %}
-{% endif %}
- 
-{{ page.content | safe }}
+    {% if page.taxonomies.tags %}
+    tags:  
+    {% for tag in page.taxonomies.tags %}
+    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+    {%- if not loop.last %}{{ ", " | safe }}{% endif -%}
+    {% endfor %}
+    {% endif %}
+
+  <div class="post-content">
+    {{ page.content | safe }}
+  </div>
 
  </article>
 
