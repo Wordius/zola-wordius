@@ -10,6 +10,7 @@ title = "Useful pages on this site"
 - [About this site](/about-this-site)
 - [Blogroll](/blogroll)
 - [Colophon](/colophon)
+- [Privacy](/privacy)
 - [Reading matter](/reading)
 - [RSS feeds](/rss-feeds)
 - [Software I use](/uses)
