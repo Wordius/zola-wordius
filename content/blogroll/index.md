@@ -25,7 +25,7 @@ There are many so-called digital gardens out there, but I prefer to call them jo
 
 ### Open source/free software
 
-- [Affinity](https://affinity.serif.com/en-gb/designer/#buy) – £33.99. Useful if you want to get out or stay out of Adobe’s locked-in subscription model for Illustrator (Mac/PC). Useful page and photo editing software too if you use those kind of things. Suite of products for £89.99. That’s a big saving on Adobe’s £570 annual subscription charge 
+- [Affinity](https://affinity.serif.com/en-gb/designer/#buy) – £33.99 for Publisher. Useful if you want to get out or stay out of Adobe’s locked-in subscription model for Illustrator (Mac/PC). Useful page and photo editing software too if you use those kind of things. Suite of products for £79.99. That’s a big saving on Adobe’s £570 annual subscription charge. My wife is proving stubborn at the moment as she knows InDesign and doesn’t like the idea of a software move. 
 - [Gimp](https://www.gimp.org) – free/donate, photo editing
 - [Netnewswire](https://netnewswire.com) – free, RSS reader
 - [Omnivore](https://omnivore.app), free, read it later/RSS reader
@@ -50,3 +50,4 @@ There are many so-called digital gardens out there, but I prefer to call them jo
 - [Lost Type Co-op](http://www.losttype.com)
 - [Open Foundry](https://open-foundry.com/fonts)
 - [Raw Pixel](https://www.rawpixel.com)
+- [Use & Modify](https://usemodify.com)
