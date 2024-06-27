@@ -20,6 +20,9 @@
 </head>
 
 <body>
+
+	<div id="wrapper">
+
     <header>
 		<a style="width:100%;height:auto;" href="/" class="home-link">
 			<img src="/img/banner-wordius-white-768-2.png" />
@@ -29,14 +32,16 @@
 			<ul class="nav">
 				<!--<li class="nav-item"><a href="/">home</a></li>-->
 				<li class="nav-item"><a href="/journal">journal</a></li>
-				<li class="nav-item"><a href="/blog">archive</a></li>
+				<li class="nav-item"><a href="/blog">posts</a></li>
 				<li class="nav-item"><a href="/about">about</a></li>					
 				<li class="nav-item"><a href="/tags">tags</a></li>
 			</ul>
 		</nav>
 	</header>
     
-    <main>
+	<div id="container">
+
+    <main id="content_main">
 
 	{% block content %} 
 		{% block title %}
@@ -53,8 +58,52 @@
 	{% endblock content %}
 
     </main>
+
+	<aside id="content_aside">
+
+		<p>Freelance journalist, editor, and I enjoy experimenting on the web. But, above all, I am human.</p>
+
+        <ul class="slashes">
+            <li><a href="/about-this-site">About this site</a></li>
+            <li><a href="/blogroll">Blogroll</a></li>
+            <li><a href="/colophon">Colophon</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/reading">Reading matter</a></li>
+            <li><a href="/rss-feeds">RSS feeds</a></li>
+            <li><a href="/uses">Software I use</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+		<ul>
+            <li>&copy; Jeff Porter 2012–{{ config.extra.copyright | replace(from="{year}", to=now() | date(format="%Y")) }}</li>
+        </ul>
+
+        <ul class="social">
+            <li><a href="https://mastodon.social/@wordius"><img class="naked" src="/img/brand-mastodon.png" width="28" height="28"></a></li>
+            <li>
+                <a href="https://bsky.app/profile/wordius.com"><img class="naked" src="/img/brand-bluesky.png" width="28" height="28"></a>
+            </li>
+            <li>
+                <a href="https://x.com/wordius"><img class="naked" src="/img/x.png" width="28" height="28"></a>
+            </li>
+			<li>
+                <a href="/rss.xml"><img class="naked" src="/img/rss.png" width="28" height="28"></a>
+            </li>
+
+            <!-- <li>
+                <a href="https://www.buymeacoffee.com/jeffpporteD">
+                    <img src="/img/black-button.png" alt="Buy me a coffee" width="131">
+                </a>
+            -->
+            </li>
+        </ul>
+	</aside>
     
+	</div><!-- container -->
+
 	{% include "partials/footer.html" %}
+
+	</div><!-- wrapper -->
 
 </body>
 

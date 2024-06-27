@@ -25,5 +25,3 @@ My wife was upstairs. She’d asked me to get the broom out of my car. I stood u
 This site tells my story since that time – what has happened, what to expect… If indeed, you can expect anything, because I’m told strokes affect everyone differently. But you might find some of it useful; I hope you do, but I hope you don’t have to.
 
 *** 
-
-If you find anything remotely useful, help me to support this site by [buying me a coffee](https://www.buymeacoffee.com/jeffpporteD). All help is appreciated.
