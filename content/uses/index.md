@@ -4,7 +4,7 @@ title = "The software I use"
 
 <div class="page-intro"> 
 <p class="larger">Because people like to know these things…</p>
-<p class="larger">As I’ve got older, my life has become ever more Apple-centric</p>
+<p class="larger">As I’ve got older, my life has become ever more Apple-centric. That may be a bad choice. We shall see.</p>
 </div>
 
 - **Adobe**: InDesign, Photoshop, Illustrator. Currently investigating alternatives. More soon
