@@ -25,13 +25,13 @@ There are many so-called digital gardens out there, but I prefer to call them jo
 
 ### Open source/free software
 
-- [Affinity](https://affinity.serif.com/en-gb/designer/#buy) – £33.99 for Publisher. Useful if you want to get out or stay out of Adobe’s locked-in subscription model for Illustrator (Mac/PC). Useful page and photo editing software too if you use those kind of things. Suite of products for £79.99. That’s a big saving on Adobe’s £570 annual subscription charge. My wife is proving stubborn at the moment as she knows InDesign and doesn’t like the idea of a software move. 
+- [Affinity](https://affinity.serif.com/en-gb/designer/#buy) – £33.99 for Publisher. Useful if you want to get out or stay off of Adobe’s locked-in subscription model for InDesign (Mac/PC). Useful illustration and photo editing software too if you use those kind of things. Suite of products for £79.99. That’s a big saving on Adobe’s £570 annual subscription charge. My wife is proving stubborn at the moment, as she knows InDesign and doesn’t like the idea of learning new software at the moment. 
 - [Gimp](https://www.gimp.org) – free/donate, photo editing
 - [Netnewswire](https://netnewswire.com) – free, RSS reader
 - [Omnivore](https://omnivore.app), free, read it later/RSS reader
-- [Obsidian](https://obsidian.md)– free, pay to sync (or use iCloud or similar), note taking
+- [Obsidian](https://obsidian.md) — free, pay to sync (or use iCloud or similar), note taking
 - [Orion](http://kagi.com/orion/)
-- [Raindrop.io](https://raindrop.io), free (up to 100MB per month/paid), bookmark manager
+- [Raindrop.io](https://raindrop.io) — free (up to 100MB per month), bookmark manager
 - [Thunderbird](https://www.thunderbird.net/en-GB/) – donate, email/calendar/tasks
 - [Visual Studio Code](https://code.visualstudio.com) – free
 

@@ -10,12 +10,4 @@ So many people to thank… Where to start?
 - Fonts are Fontin and Fontin Sans, both by Jos Buivenga at [Exljbris](https://www.exljbris.com).
 - Use of the ‘before:2023’ search term to find old web answers to my questions. For the most part, it works. Try it. Just type `before:2023` before a search term. I simply have the phrase assigned to a snippet in [Alfred](https://alfredapp.com) to speed up my typing.
 
-I will add and subtract from this list as time goes on.
-
-## Index of pages
-
-- [About](/about)
-- [About this site](/about-this-site)
-- [Contact](/contact)
-- [Reading matter](/reading)
-- [Software I use](/uses)
+I will update this list as time goes on.
