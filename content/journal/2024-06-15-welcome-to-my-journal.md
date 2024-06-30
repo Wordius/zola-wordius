@@ -15,7 +15,7 @@ It is presented in four sections:
 - The Journal: you are here, where I write about the workings of this site, bits of what little I know about code, and other general stuff. Most of my time will be spent in here.
 - The Blog: free software available for the Mac and iOS. What this site is about, in other words. It includes some of my original posts, published variously while under the influence of WordPress, GetKirby and Jekyll, another static site generator like this one. Apologies in advance for the quality of some the images, which have not stood up to passing through so many resizes.
 - Advice on stroke: I occasionally make observations about life after a stroke.
-- Articles: where I even more occasionally put up some of any articles I have written that appeared in print. It is by no means all the writing I have done, just a selection.
+- Articles: where I even more occasionally put up some of the articles I have written that appeared in print. Sadly, there is nothing from the time I worked for a motorcycle magazine, _Bike_. That may change when I get the chance to re-type an article and scan a number of images.
 
 I have given it the most basic styling, some of which I like and some of which I will improve over time. Lists, for example, are in their most basic form. Take a look at my [reading](/reading), the [software I use](/uses), [colophon](/colophon) and [blogroll](/blogroll) pages, and you will see what I mean.
 

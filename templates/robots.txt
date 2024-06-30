@@ -30,4 +30,5 @@ User-agent: PiplBot
 User-agent: scoop.it
 User-agent: Seekr
 User-agent: YouBot
+User-agent: YandexBot
 Disallow: /
