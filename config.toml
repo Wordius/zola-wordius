@@ -4,7 +4,7 @@ base_url = "https://wordius.com"
 
 title = "Wordius"
 
-authors = "Jeff Porter"
+author = "Jeff Porter"
 
 description = "Most things Apple, with a leaning towards open source and free software"
 
