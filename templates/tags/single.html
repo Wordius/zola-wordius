@@ -13,14 +13,14 @@
   <ul class="postlist">
     {% for page in term.pages | sort(attribute="date") | reverse %}
     <li class="postlist-item">
-      <div class="postlist-head">
-        <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-      </div>
-        {% if page.date %}
+      {% if page.date %}
       <div class="date">
         <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
       </div>
       {% endif %}
+      <div class="postlist-head">
+        <h2><a class="postlist-title" href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      </div>
       <p class="postlist-description">{{ page.description }}</p>
     </li>
     {% endfor %}

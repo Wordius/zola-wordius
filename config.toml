@@ -14,7 +14,7 @@ compile_sass = false
 
 # Feeds
 
-generate_feed = true
+generate_feeds = true
 feed_filename = "rss.xml"
 
 # Taxonomies

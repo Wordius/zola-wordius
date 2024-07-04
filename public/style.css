@@ -265,6 +265,7 @@ figcaption {
 	font-size: var(--font-size-smmd);
 	margin: 0 0 2rem;
 	text-align: left;
+	line-height: 1.5;
 	/*border-left: 1px solid var(--color-gray-50);
 	padding-left: .5rem;*/
 }
