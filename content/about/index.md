@@ -6,7 +6,7 @@ title = "About"
 {{ image_full(path="/about/roma-and-dotty-2.heic", caption="Our two lurchers, Roma, left, and Dotty: why use two couches when you can share one? Roma passed away in 2022, aged 13 years") }}
 </div>
 
-This website is not about the Next Big Thing to come out of Apple – although the occasional update may be warranted – but about second-hand Macs, iPhones, iPads, and ancillary equipment, and free, occasionally, paid-for software. There has to be a good reason when I pay for software.
+This website is not about the Next Big Thing to come out of Apple – although I may provide the occasional update – but about second-hand Macs, iPhones, iPads, and ancillary equipment, and free, occasionally, paid-for software. There has to be a good reason when I pay for software.
 
 I’ve been out of the loop for some time now, but the cost of apps appears to have rocketed in recent years, not to mention that, most, have gone down the subscription route. These days I rarely sign up for an app that requires a subscription, beyond storage. I’ve learnt that lesson over the years.
 
