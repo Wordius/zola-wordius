@@ -22,7 +22,7 @@ Posh lady: “And do you know the names of plants?”
 
 Me: “Well, not all of them…”
 
-Posy lady: “Well you wouldn’t be suitable for my garden, then. Goodbye.”
+Posh lady: “Well you wouldn’t be suitable for my garden, then. Goodbye.”
 
 And, with that, she put the phone down. Well, I guess she did. Maybe she had a manservant to do that kind of thing.
 
