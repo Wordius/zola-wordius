@@ -8,6 +8,7 @@ This is a work in progress. In other words, it will never get done…
 
 - [Andy Bell](https://piccalil.li)
 - [Chen Hui Jing](https://chenhuijing.com/#🦊)
+- [G Keenan](https://gkeenan.co) – A Very Good Blog, by a very good writer
 - [Ethan Marcotte](https://ethanmarcotte.com)
 
 ### Digital gardens
