@@ -28,7 +28,7 @@ And, with that, she put the phone down. Well, I guess she did. Maybe she had a m
 
 End of conversation. Interview over.
 
-Now, I don’t know about you but I don’t know anyone who would claim to know every plant in the world. (Many plants remain undiscovered, anyway, so how the fuck could they?) Ditto entomologists and their insects? Or scientologists and anything remotely to do with science. In just the same way, I don’t know any journalist who would claim to know every subject. Nor every designer who knows every medium. They happen to be – some of them at least – just good at what they do. 
+Now, I don’t know about you but I don’t know anyone who would claim to know every plant in the world. (Many plants remain undiscovered, anyway, so how the fuck could they?) Ditto entomologists and their insects? Or scientologists and anything remotely to do with science. In just the same way, I don’t know any journalist who would claim to know every subject. Nor any designer who knows every medium. They happen to be – some of them at least – just good at what they do. 
 
 I am a production editor, a sub editor, an editor in my current role. I just happened to have worked at Garden Answers for a time in the 1990s, and I enjoyed my time there. It was my job to ensure the magazine went to press while adhering to the highest standards, both in terms of production and editorial quality. And, along the way, as it happened, I picked up some knowledge of gardening. I learned from the experts in other words.
 
