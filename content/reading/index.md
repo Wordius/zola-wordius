@@ -53,7 +53,7 @@ title = "The books I’ve read"
 - The Rainmaker, John Grisham
 - The Client, John Grisham
 - A Time to Kill, John Grisham
-- [Bombay Taxi](https://amzn.to/3wXRvz4), John Ramsay&emsp;*A top notch read even if it’s not by a top author. Tells the story of the London barrow boy’s family’s overland journey from England to Australia in the 1950s. I particularly liked the way they turned up at the RAC in London to get a road map – old-school Google Maps – for their journey.*
+- [Bombay Taxi](https://amzn.to/3wXRvz4), John Ramsay&emsp;&ensp;*A top notch read even if it’s not by a top author. Tells the story of the London barrow boy’s family’s overland journey from England to Australia in the 1950s. I particularly liked the way they turned up at the RAC in London to get a road map – old-school Google Maps – for their journey.*
 - Ship of Rome, John Stack
 - Cannery Row, John Steinbeck
 - [The Grapes of Wrath](https://amzn.to/3R3pzk4), John Steinbeck
@@ -64,7 +64,7 @@ title = "The books I’ve read"
 - The Pillars of the Earth, Ken Follett
 - The Hammer of Eden, Ken Follett
 - [The Gang That Wouldn’t Write Straight](https://amzn.to/4bFWfIC), Marc Weingarten
-- Die of Shame, Mark Billingham&emsp;*A weird one. I’m not sure I liked it. The case is run by Tanner, right up until the end when Inspector Thorne and his sidekick, Dr Hendricks make their first appearance. Is this a signal Thorne’s on his way out?*
+- Die of Shame, Mark Billingham&emsp;&ensp;*A weird one. I’m not sure I liked it. The case is run by Tanner, right up until the end when Inspector Thorne and his sidekick, Dr Hendricks make their first appearance. Is this a signal Thorne’s on his way out?*
 - The Last Dance, Mark Billingham
 - [Micro](https://amzn.to/4aGd6d8), Michael Crichton
 - State of Fear, Michael Crichton
