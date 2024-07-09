@@ -64,7 +64,7 @@ title = "The books I’ve read"
 - The Pillars of the Earth, Ken Follett
 - The Hammer of Eden, Ken Follett
 - [The Gang That Wouldn’t Write Straight](https://amzn.to/4bFWfIC), Marc Weingarten
-- Die of Shame, Mark Billingham%emsp;A weird one. I’m not sure I liked it. The case is run by Tanner, right up until the end when Inspector Thorne and his sidekick, Dr Hendricks make their first appearance. Is this a signal Thorne’s on his way out?
+- Die of Shame, Mark Billingham&emsp;A weird one. I’m not sure I liked it. The case is run by Tanner, right up until the end when Inspector Thorne and his sidekick, Dr Hendricks make their first appearance. Is this a signal Thorne’s on his way out?
 - The Last Dance, Mark Billingham
 - [Micro](https://amzn.to/4aGd6d8), Michael Crichton
 - State of Fear, Michael Crichton
