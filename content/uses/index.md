@@ -14,11 +14,11 @@ title = "The software I use"
 - **To do**: iOS Reminders
 - **iPhone photo shooting**: Camera app
 - **Photo management**: Apple Photos
-- **Calendar:** Apple Calendar
+- **Calendar:** Apple Calendar. It’s worth noting here that Thunderbird has a great calendar, whereby you can show a snapshot of the week ahead. You can display it in the right sidebar so doesn’t get in the way
 - **Cloud file storage:** iCloud
 - **Contacts**: Apple Contacts
 - **Browser:** Safari and Orion (the latter is not in use at the moment, but I hope it will be soon)
-- **Chat**: Apple Messages
+- **Chat**: Apple Messages, Signal
 - **Bookmarks**: Raindrop.io
 - **Read it later**: Omnivore
 - **RSS**: NetNewsWire (in the past Reeder (iOS) and ReadKit) Omnivore
