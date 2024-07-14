@@ -3,7 +3,7 @@ title = "Casio G-Shock G-3157"
 description = "I think I am going to have to find another source of income…"
 date = 2024-07-08
 [taxonomies]
-tags = ["wristcheck"]
+tags = ["wristcheck", "casio"]
 +++
 
 {{ image(path="g-shock-g-3157.heic", caption="My gardening watch, the Casio G-Shock G-3157") }}
