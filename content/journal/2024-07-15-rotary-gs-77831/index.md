@@ -1,7 +1,7 @@
 +++
 title = "Rotary GS77831/CUF/07S"
 description = "If only the batteries came with a lifetime warranty…"
-date = 2024-07-15
+date = 2024-07-20
 [taxonomies]
 tags = ["wristcheck", "rotary"]
 +++
