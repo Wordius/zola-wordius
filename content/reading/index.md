@@ -95,4 +95,5 @@ title = "The books I’ve read"
 - Look Homeward Angel, Thomas Wolfe
 - The Master Switch, Tim Wu
 - The Hunt for Red October, Tom Clancy
+- [The Right Stuff](https://amzn.to/3LKer8A), Tom Wolfe
 - When the Lion Feeds, Wilbur Smith

@@ -16,7 +16,7 @@ Assuming you’ve made it to 67, you’ll likely have all manner of things going
 
 That’s why the introduction of the mobile phone proved such a winner for me, despite my inner self telling me I didn’t want one. Secretly, I loved gadgets. Oh, and [watches](/tags/wristcheck).
 
-I got to thinking about this only a few years ago. I’ve been in ‘early retirement’ since 1 September 2002, when I was 37. Yes, I worked late, because I chose to. I worked long hours, because I chose to. I worked weekends, because I chose to. I worked all this time, because I was young enough to cope with it. But, get this, the client I worked for only produced that work for four months of the year, from September up to Christmas. Until the next September rolled around. And that went on for ten years before, I had had enough and other work came along.
+I got to thinking about this only a few years ago. I’ve been in ‘early retirement’ since 1 September 2002, when I was 37. Yes, I worked late, because I chose to. I worked long hours, because I chose to. I worked weekends, because I chose to. I worked all this time, because I was young enough to cope with it. But, get this, the client I worked for only produced that work for four months of the year, from September up to Christmas. Until the next September rolled around. And that went on for ten years, until I had had enough and other work came along.
 
 At first, I earned a lot and we spent it. Fuck, did we spend it. Before I kick myself into oblivion for not saving more at the time, think about it. I was in early retirement, the good times had already started for me at that ‘young’ age. And the good times rolled on for another 10 years or so. 
 
