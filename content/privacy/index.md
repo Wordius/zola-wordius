@@ -18,7 +18,7 @@ I use web fonts. All font files are served from this domain and there is no thir
 
 ### Links
 
-You may occasionally come across links to Amazon. These may be affiliate links, they may not. All I can say is that I have keep this blog paid for some how and Amazon’s model suited me at the time.
+You may occasionally come across links to Amazon. These may be affiliate links, they may not. All I can say is that I have to keep this blog paid for some how and Amazon’s model suited me at the time.
 
 ### Email
 
