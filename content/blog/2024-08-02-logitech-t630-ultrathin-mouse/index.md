@@ -8,7 +8,7 @@ tags = ["Logitech", "hardware"]
 
 {{ image(path="logitech-t630-ultrathin-mouse.heic", caption="Logitech T630 Ultrathin: I’ve owned one since 2016, and it’s still going strong") }}
 
-If there is one thing that’s as good free or open source software, it is coming across hardware that’s built to last. Even if it’s not free.
+If there is one thing that’s as good as free or open source software, it is coming across hardware that’s built to last. Even if it’s not free.
 
 I bought a mouse by Logitech in March 2016, a T630 Ultrathin Touch model. It cost what seemed a lot at the time for a mere mouse – £46.99. But, get this, it’s still in use  today. All it needs is a recharge every couple of weeks, depending on the usage.
 
