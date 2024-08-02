@@ -68,6 +68,7 @@ title = "The books I’ve read"
 - The Last Dance, Mark Billingham
 - [Micro](https://amzn.to/4aGd6d8), Michael Crichton
 - State of Fear, Michael Crichton
+- [Chasing Che](https://amzn.to/3WpMTKN), Patrick Symes&emsp;&ensp;*One man’s quest to uncover the truth behind the myth of the world’s greatest revolutionary.* 
 - Pompeii, Robert Harris
 - Brethren, Robyn Young
 - Requiem – The Fall of the Templars, Robyn Young
