@@ -6,7 +6,7 @@ date = 2024-08-02
 tags = ["Logitech", "hardware"]
 +++
 
-{{ image(path="logitech-t630-ultrathin-mouse.heic", caption="Logitech T630 Ultrathin: I’ve owned one since 2016, and it’s still going strong") }}
+{{ image(path="logitech-t630-ultrathin-mouse-1024-nnl.avif", caption="Logitech T630 Ultrathin: I’ve owned one since 2016, and it’s still going strong") }}
 
 If there is one thing that’s as good as free or open source software, it is coming across hardware that’s built to last. Even if it’s not free.
 
