@@ -6,7 +6,7 @@ date = 2024-08-02
 tags = ["wristcheck", "lorus"]
 +++
 
-{{ image(path="lorus-rp2327px9.heic", caption="Lorus RP2327PX9: tells the time, loud and clear") }}
+{{ image(path="lorus-rp2327px9.avif", caption="Lorus RP2327PX9: tells the time, loud and clear") }}
 
 - Model: Lorus digital quartz R2327PX9
 - Case dia.: 45mm

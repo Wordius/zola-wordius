@@ -6,7 +6,7 @@ date = 2024-07-14
 tags = ["Wristcheck", "Sekonda"]
 +++
 
-{{ image(path="sekonda-wingman.heic", caption="Understated looks from Sekonda’s Wingman") }}
+{{ image(path="sekonda-wingman.avif", caption="Understated looks from Sekonda’s Wingman") }}
 
 - Case dia.: 42mm
 - Movement: quartz

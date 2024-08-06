@@ -6,7 +6,7 @@ date = 2024-07-28
 tags = ["retirement", "life"]
 +++
 
-{{ image(path="mickey-o-neil-xL66l--msXU-unsplash.heic", caption="Life can be a beach if you choose wisely") }} Photo by <a href="https://unsplash.com/@mickeyoneil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mickey O’neil</a>
+{{ image(path="mickey-o-neil-xL66l--msXU-unsplash.avif", caption="Life can be a beach if you choose wisely") }} Photo by <a href="https://unsplash.com/@mickeyoneil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mickey O’neil</a>
 
 What does anyone go into retirement hoping for? No more work – check. No more 9-5 – check. Time to spend the way you want to, not the way someone expects you to. Most of the time, anyway.
 

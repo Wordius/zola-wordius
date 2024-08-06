@@ -6,7 +6,7 @@ date = 2024-07-08
 tags = ["wristcheck", "casio"]
 +++
 
-{{ image(path="g-shock-g-3157.heic", caption="My gardening watch, the Casio G-Shock G-3157") }}
+{{ image(path="g-shock-g-3157.avif", caption="My gardening watch, the Casio G-Shock G-3157") }}
 
 I thought I was unique, one of a kind, till I discovered the hashtag #Wristcheck on Mastodon, and there are no less than eight participants already. Fuck, so I’m not alone. I’m not the only one who enjoys this kind of ‘wristography’, or watch porn. I’m an eager participant in this pastime, which is dominated by ‘wristosseurs’, many with deep pockets or, at least, deeper than mine. 
 

@@ -6,7 +6,7 @@ date = 2024-07-20
 tags = ["wristcheck", "rotary"]
 +++
 
-{{ image(path="rotary-gs-77831.heic", caption="Rotary GS77831: the batteries might not outlive me but the watch certainly will") }}
+{{ image(path="rotary-gs-77831.avif", caption="Rotary GS77831: the batteries might not outlive me but the watch certainly will") }}
 
 - Case dia.: 32mm
 - Movement: quartz

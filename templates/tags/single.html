@@ -3,7 +3,7 @@
 {% block content %}
 
   {% block title %}
-   {{ config.title }}  &middot; {{ term.name | capitalize }}
+   {{ config.title }} &middot; <a href="/tags">Tags</a> &middot; {{ term.name | capitalize }}
   {% endblock title %}
 
   <h1>{{ term.name | capitalize }}</h1>
@@ -11,7 +11,7 @@
   <div class="page-intro">
     <p class="larger">View all <a href="/tags">tags</a>.</p>
   </div>
-  
+
   <ul class="postlist">
     {% for page in term.pages | sort(attribute="date") | reverse %}
     <li class="postlist-item">
