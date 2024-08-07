@@ -5,25 +5,11 @@
   <h1 class="title">
     {{ section.title }}
   </h1>
-<!--  <ul>
+  <div class="page-intro">
 
-    {% for page in section.pages %}
-    <li>
-      <div class="postlist-head">
-        <h2>
-          <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-        </h2>
-      </div>
-      <div class="postlist-date">
-          <p><time datetime="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time></p>
-      </div>
-      <p class="postlist-description">{{ page.description }}</p>
-    </li>
-    {% endfor %}
-  </ul>
-</article>
--->
-<!-- PAGINATOR -->
+  </div>
+
+  <!-- PAGINATOR -->
 {% if paginator %}
 <div>
   <ul class="postlist">

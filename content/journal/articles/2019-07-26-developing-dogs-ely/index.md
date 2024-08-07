@@ -1,6 +1,6 @@
 +++
 title = "Developing Dogs, Ely, Cambridgeshire"
-date = 2024-03-31
+date = 2019-07-26
 description = "Jeff Porter and his wife, Jane, head for a long weekend near Ely, with their kids, sorry dogs, Roma and Dotty. Oh, and there’s a spot of dog training thrown in"
 
 [taxonomies]
