@@ -25,7 +25,7 @@ As well as the time and date functions, there’s an auto-calendar up to 2049, c
 
 It is also lightweight, at only 30g, has a clear display with a backlight (turned on by pressing the S2 button, bottom right), and it’s extremely comfortable to wear. So comfortable, in fact, that I often continue wearing it into the weekend, forgetting that this is one of my working-week watches. I own a few of these with slightly different features.
 
-A solid piece of kit from Seiko, the makers of more upmarket watches. In this, the bottom range of the watch segment occupied by Lorus, prices range from 16 euros to around 160 euros.
+A solid piece of kit from Lorus, the makers of more upmarket watches. In this, the bottom range of the watch segment, which is occupied by Lorus, prices range from 16 euros to around 160 euros.
 
 Batteries are claimed to last up to two years.
 
