@@ -6,6 +6,11 @@ date = 2024-10-13
 tags = ["wristcheck", "berny"]
 +++
 
+<figure>
+        <img src="berny-automatic-dive-AM7081M-YE-watch-1.jpg" srcset="berny-automatic-dive-AM7081M-YE-watch-1.jpg 1024w, berny-automatic-dive-AM7081M-YE-watch-1.avif 1024w, berny-automatic-dive-AM7081M-YE-watch-1.heic 1024w, image.webp 1024w" alt="Berny AM7081M-YE" />
+        <figcaption>Berny’s Automatic Dive watch with its misaligned day mode</figcaption>
+</figure>
+
 - Model: Berny Automatic Mechanical Dive AM7081M-YE
 - Case dia.: 42mm
 - Movement: Miyota 8205 automatic 
@@ -14,11 +19,6 @@ tags = ["wristcheck", "berny"]
 - Category: Dive
 - Price: £67.50 (RRP £120.99) 
 - Available from: [Berny](https://www.bernywatch.com/?ref=ihzqtbbh)
-
-<figure>
-        <img src="berny-automatic-dive-AM7081M-YE-watch-1.jpg" srcset="berny-automatic-dive-AM7081M-YE-watch-1.jpg 1024w, berny-automatic-dive-AM7081M-YE-watch-1.avif 1024w, berny-automatic-dive-AM7081M-YE-watch-1.heic 1024w, image.webp 1024w" alt="Berny AM7081M-YE" />
-        <figcaption>Berny’s Automatic Dive watch with its misaligned day mode</figcaption>
-</figure>
 
 This watch from Berny is my first step away from a reliance on battery power that has endured since the 1980s when I had a watch made by Everite. As with the days of young adulthood that is but a distant memory.
 

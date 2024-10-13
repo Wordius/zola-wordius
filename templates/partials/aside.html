@@ -1,0 +1,40 @@
+<aside id="content_aside" class="fade-in-image">
+
+    <p>Freelance journalist, editor, and I enjoy experimenting on the web. But, above all, I am human.</p>
+
+    <ul class="slashes">
+        <li><a href="/about-this-site">About this site</a></li>
+        <li><a href="/blogroll">Blogroll</a></li>
+        <li><a href="/colophon">Colophon</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/reading">Reading matter</a></li>
+        <li><a href="/rss-feeds">RSS feeds</a></li>
+        <li><a href="/uses">Software I use</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+
+    <ul>
+        <li>Made in <a href="https://www.getzola.org">Zola</a>, stored on GitHub, and hosted on <a href="https://netlify.com">Netlify</a></li>
+    </ul>
+
+    <ul>
+        <li>&copy; Jeff Porter 2012–{{ config.extra.copyright | replace(from="{year}", to=now() | date(format="%Y")) }}</li>
+    </ul>
+
+    <ul class="social">
+        <li><a href="https://mastodon.social/@wordius"><img class="naked" src="/img/brand-mastodon.png" width="28" height="28"></a></li>
+        <li>
+            <a href="https://bsky.app/profile/wordius.com"><img class="naked" src="/img/brand-bluesky.png" width="28" height="28"></a>
+        </li>
+        <li>
+            <a href="/rss.xml"><img class="naked" src="/img/rss.png" width="28" height="28"></a>
+        </li>
+
+        <!-- <li>
+            <a href="https://www.buymeacoffee.com/jeffpporteD">
+                <img src="/img/black-button.png" alt="Buy me a coffee" width="131">
+            </a>
+        -->
+        </li>
+    </ul>
+</aside>
