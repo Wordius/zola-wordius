@@ -6,7 +6,6 @@ You can contact via either of the methods below:
 
 - [Mastodon](https://mastodon.social/@wordius)
 - [Bluesky](https://bsky.app/profile/wordius.bsky.social)
-- [X née Twitter](https://x.com/wordius)
 - Signal – jeff_porter.24
-- Email me at ‘info’ at this site’s address.
+- Email me at <a href='mailto&#58;%&#54;9nfo&#64;wor&#100;%6&#57;us&#46;&#37;&#54;3o%6D'>&#105;nfo&#64;wordius&#46;&#99;om</a>.
 
