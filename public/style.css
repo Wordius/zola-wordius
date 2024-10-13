@@ -422,7 +422,6 @@ p {
 	margin-top: 0;
 }
 p.larger {
-<<<<<<< HEAD
 	font-family: var(--font-family-head);
 	font-size: var(--font-size-lgmd);
 	font-weight: 500;
@@ -430,9 +429,7 @@ p.larger {
 }
 p.larger a {
 	color: #990000;
-=======
 	font-size: var(--font-size-lgmd);
->>>>>>> 3fa9d5bed01602d29a96d8075759928446527bf6
 }
 .post-nav p {
 	line-height: 1.55;
