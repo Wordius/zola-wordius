@@ -28,10 +28,10 @@
  {% if page.lower or page.higher %}
   <div class="post-nav">
     {% if page.lower %}
-      <p><span class="post-nav-dir">Previous: </span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></p>
+      <p><span class="post-nav-dir">Previous: </span><a class="previous" href="{{ page.lower.permalink }}">&lsaquo; {{ page.lower.title }}</a></p>
     {% endif %}
     {% if page.higher %}
-      <p><span class="post-nav-dir">Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></p>
+      <p><span class="post-nav-dir">Next: </span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} &rsaquo;</a></p>
     {% endif %}
   </div>
 {% endif %}

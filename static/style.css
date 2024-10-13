@@ -1,3 +1,4 @@
+/*@import "reset.css";*/
 @import "fonts.css"; 
 @import "layout.css";
 @import "transitions.css";
@@ -54,16 +55,28 @@ html {
 }
 
 html {
-		--font-size-sm: 0.75rem;   
-		--font-size-smmd: 0.875rem;   
-		--font-size-base: 1rem;    
-		--font-size-lgmd: 1.125rem;   
-		--font-size-md: 1.25rem;   
-		--font-size-lg: 1.5rem;    
-		--font-size-xl: 1.75rem;   
-		--font-size-xxl: 2rem;     
-		--font-size-xxxl: 2.25rem; 
+		--font-size-sm: 0.75rem; /* 14px */
+		--font-size-smmd: 0.875rem; /* 16px */
+		--font-size-base: 1rem; /* 18px */
+		--font-size-lgmd: 1.125rem; /* 20px */
+		--font-size-md: 1.25rem; /* 22px */
+		--font-size-lg: 1.5rem; /* 27px */   
+		--font-size-xl: 1.75rem; /* 32px */
+		--font-size-xxl: 2rem; /* 36px */
+		--font-size-xxxl: 2.25rem; /* 40px */
 }
+
+/*html {
+	--font-size-sm: 1.4rem; /* 14px */
+/*	--font-size-smmd: 1.6rem; /* 16px */
+/*	--font-size-base: 1.8rem; /* 18px */
+/*	--font-size-lgmd: 2.0rem; /* 20px */
+/*	--font-size-md: 2.2rem; /* 22px */
+/*	--font-size-lg: 2.7rem; /* 27px */   
+/*	--font-size-xl: 3.2rem; /* 32px */
+/*	--font-size-xxl: 3.6rem; /* 36px */
+/*	--font-size-xxxl: 4.0rem; /* 40px */
+/*}*/
 
 html, body {
 	padding: 0 0.5rem;
@@ -118,18 +131,17 @@ header {
 	padding: 1em;
 	border-bottom: 2px solid var(--color-gray-50);
 }
-header:after {
+/*header:after {
 	content: "";
 	display: table;
 	clear: both;
-}
+}*/
 .home-link {
 	font-family: Helvetica, sans-serif;
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	align-items: centre;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -145,6 +157,9 @@ header:after {
 
 /* Nav */
 
+nav {
+	padding-bottom: 1rem;
+}
 .nav {
 	display: flex;
 	font-family: var(--font-family-text);
@@ -342,6 +357,7 @@ article {
 	margin-bottom: 1rem;
 }
 article p, article ul, article ol {
+	/*font-size: var(--font-size-base);*/
 	line-height: 1.65;
 	color: var(--color-gray-90);
 }
@@ -405,11 +421,20 @@ article p, article ul, article ol {
 p {
 	margin-top: 0;
 }
-/*p.larger {
-	font-size: var(--font-size-base);
-}*/
+p.larger {
+	font-family: var(--font-family-head);
+	font-size: var(--font-size-lgmd);
+	font-weight: 500;
+	line-height: 1.5;
+}
+p.larger a {
+	color: #990000;
+}
 .post-nav p {
 	line-height: 1.55;
+}
+.page-intro p a {
+	font-weight: 700;
 }
 
 #content_aside {
