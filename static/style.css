@@ -429,6 +429,7 @@ p.larger {
 }
 p.larger a {
 	color: #990000;
+	font-size: var(--font-size-lgmd);
 }
 .post-nav p {
 	line-height: 1.55;
