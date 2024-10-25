@@ -32,4 +32,4 @@ From its mineral crystal dome to the recently upgraded 120-click bezel, the 13mm
 
 What can I say, but it just feels right for me. Unlike some watches I’ve bought recently, the 41mm diameter casing feels at home on my wrist. Even the 42mm Rotary Seamatic (review pendi feels too big. Maybe I’ve found my sweet spot.
 
-The one letdown is the rubber strap, which is not at great fit for my tiny wrist and has this awful overhang. So I’ve replaced it with aftermarket one from Californian brand [Archers](https://amzn.to/3C0a480).
+The one letdown is the rubber strap, which is not at great fit for my tiny wrist and has this awful overhang. So I’ve replaced it with an aftermarket one from Californian brand [Archers](https://amzn.to/3C0a480).
