@@ -7,7 +7,7 @@ tags = ["wristcheck", "berny"]
 +++
 
 <figure>
-        <img src="berny-automatic-dive-AM7081M-YE-watch-1.jpg" srcset="berny-automatic-dive-AM7081M-YE-watch-1.jpg 1024w, berny-automatic-dive-AM7081M-YE-watch-1.avif 1024w, berny-automatic-dive-AM7081M-YE-watch-1.heic 1024w, image.webp 1024w" alt="Berny AM7081M-YE" />
+        <img src="berny-automatic-dive-AM7081M-YE-watch-1.jpg" srcset="berny-automatic-dive-AM7081M-YE-watch-1.jpg 1024w, berny-automatic-dive-AM7081M-YE-watch-1.avif 1024w, berny-automatic-dive-AM7081M-YE-watch-1.heic 1024w, berny-automatic-dive-AM7081M-YE-watch-1.webp 1024w" alt="Berny AM7081M-YE" />
         <figcaption>Berny’s Automatic Dive watch with its misaligned day mode</figcaption>
 </figure>
 
