@@ -8,7 +8,7 @@ tags = ["wristcheck", "orient"]
 
 <figure>
         <img src="orient-FAA02007B9-1024.jpeg" srcset="orient-FAA02007B9-1024.jpeg 1024w, orient-FAA02007B9-1024.avif 1024w, orient-FAA02007B9-1024.heic 1024w, orient-FAA02007B9-1024.webp 1024w" alt="caption" />
-        <figcaption>Orient’s automatic diving watch hits my sweetspot</figcaption>
+        <figcaption>Orient’s automatic diving watch hits my sweet spot</figcaption>
 </figure>
 
 - Model: Orient diving watch FAA02007B9
@@ -30,6 +30,6 @@ You know from the moment you put on a watch that that particular timepiece is no
 
 From its mineral crystal dome to the recently upgraded 120-click bezel, the 13mm by 41mm 316L stainless steel case, the smooth, sweeping second hand or the crown guard and the day/date function that adjusts with a reassuring click, this piece of automated Japanese wizardry is impressive by anyone’s standards.
 
-What can I say, but it just feels right for me. Unlike some watches I’ve bought recently, the 41mm diameter casing feels at home on my wrist. Even the 42mm Rotary Seamatic (review pendi feels too big. Maybe I’ve found my sweetspot.
+What can I say, but it just feels right for me. Unlike some watches I’ve bought recently, the 41mm diameter casing feels at home on my wrist. Even the 42mm Rotary Seamatic (review pendi feels too big. Maybe I’ve found my sweet spot.
 
 The one letdown is the rubber strap, which is not at great fit for my tiny wrist and has this awful overhang. So I’ve replaced it with aftermarket one from Californian brand [Archers](https://amzn.to/3C0a480).
