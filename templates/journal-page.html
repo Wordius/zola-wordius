@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article class="post">
-  <h1 class="post-title">
+<article class="post h-entry">
+  <h1 class="post-title p-name">
     {{ page.title }}
   </h1>
-  <p class="post-date"><strong>{{ page.date | date(format="%d %B %Y") }}</strong></p>
-  <h2 class="post-desc">{{ page.description }}</h2>
+  <p class="post-date"><strong><time class="dt-published">{{ page.date | date(format="%d %B %Y") }}</time></strong></p>
+  <h2 class="post-desc p-summary">{{ page.description }}</h2>
   
 {% if page.taxonomies.tags %}
 tags:  
@@ -16,7 +16,7 @@ tags:
 {% endfor %}
 {% endif %}
 
-    <div class="post-content">
+    <div class="post-content e-content">
       {{ page.content | safe }}
     </div>
 
