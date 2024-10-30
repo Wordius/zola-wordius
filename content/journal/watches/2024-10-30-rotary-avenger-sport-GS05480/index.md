@@ -4,6 +4,8 @@ description = "The Avenger Sport is a quiet watch. Just let it sit back and chil
 date = 2024-10-30
 [taxonomies]
 tags = ["wristcheck", "rotary"]
+[extra]
+mastodon_id = "https://mastodon.social/@wordius/113396115967162672"
 +++
 
 <figure>
@@ -16,7 +18,7 @@ tags = ["wristcheck", "rotary"]
 - Movement: Quartz
 - Water resistance: 50m
 - Strap size: 18mm 
-- Category: Automatic
+- Category: Dress
 - Price: £74.98 (RRP £118.30) 
 - Available from: [Amazon UK](https://amzn.to/3LSf680)
 
