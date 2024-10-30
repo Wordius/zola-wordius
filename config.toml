@@ -42,5 +42,14 @@ highlight_code = true
 # Put all your custom variables here
 
 # The copyright notice
-
 copyright = "{year}"
+
+# GITHUB
+github_username = "wordius"
+
+[extra.fediverse]
+enable = true
+host = "mastodon.social"
+user = "wordius"
+# Mastodon id
+mastodon_id = "string"

@@ -4,6 +4,8 @@ description = "The beautiful, near-perfect dive watch that doesn’t quite make 
 date = 2024-10-26
 [taxonomies]
 tags = ["wristcheck", "rotary"]
+[extra]
+mastodon_id = "https://mastodon.social/@wordius/113373491013895531"
 +++
 
 <figure>
