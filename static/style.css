@@ -437,7 +437,7 @@ p.larger a {
 	font-weight: 700;
 }
 
-#content_aside {
+aside {
 	font-size: var(--font-size-smmd);
 	line-height: 1.5;
 	color: var(--color-gray-70);

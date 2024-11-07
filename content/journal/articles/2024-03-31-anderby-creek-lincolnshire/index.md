@@ -44,6 +44,6 @@ Anderby Creek, Lincolnshire PE24 5XT
 
 Anderby Beach Cafe, Sea Road, Anderby Creek, Lincs PE24 5XW
 
-The cafe only serves half of its menu in the winter months, which means most of the hot stuff is off menu. If you fancy fish and chips, visit Sutton-on-Sea, five miles to the north, where you will find Waldo’s (suttononsea.info/waldos-traditional-fish-and-chips) or Sea Breeze restaurant (seabreeze-restaurant.co.uk), both of which come highly recommended. And Sutton-on-Sea is another dog-friendly beach, from the Promenade to The Pullover, in the Furlong Road area!
+The cafe only serves half of its menu in the winter months, which means most of the hot stuff is off menu. If you fancy fish and chips, visit Sutton-on-Sea, five miles to the north, where you will find [Waldo’s](https://suttononsea.info/waldos-traditional-fish-and-chips) or [Sea Breeze restaurant](http://seabreeze-restaurant.co.uk), both of which come highly recommended. And Sutton-on-Sea is another dog-friendly beach, from the Promenade to The Pullover, in the Furlong Road area!
 
 CONTACT 01754 874000 or visit fb.com/anderbybeachcafe
