@@ -8,7 +8,7 @@ tags = ["wristcheck", "bulova"]
 
 <figure>
         <img src="bulova-surveyor-96B427-1024-hp.jpg" srcset="bulova-surveyor-96B427-1024-hp.jpg 1024w, bulova-surveyor-96B427-1024-hp.avif 1024w, bulova-surveyor-96B427-1024-hp.heic 1024w, bulova-surveyor-96B427-1024-hp.webp 1024w" alt="Bulova Surveyor" />
-        <figcaption>Bulova Surveyor: it’s striking pistachio dial may not be to everyone’s taste, but it suits mine. Shot on: Ricoh R10</figcaption>
+        <figcaption>Bulova Surveyor: it’s striking pistachio dial may not be to everyone’s taste, but it suits mine. Shot with Ricoh R10</figcaption>
 </figure>
 
 - Model: Bulova Surveyor 96B427
