@@ -35,7 +35,7 @@ Zola is my current favourite, and what this site is built with. It is simple to 
         <figcaption>Zola’s simple site structure is contained in two files and six folders</figcaption>
 </figure>
 
-Two files and six folders represent the full workings of Zola. First there’s config.toml, which is your configuration file then netlfiy.toml, which you only generate if you intend to use Netlify. The folders contain:
+Two files and six folders represent the full workings of Zola. First there’s config.toml, which is your configuration file then netlify.toml, which you only generate if you intend to use Netlify. The folders contain:
 
 - **content** – all sections (blog, etc.) and pages in markdown format.
 - **public** – the generated site.
