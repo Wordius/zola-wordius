@@ -12,7 +12,7 @@ tags = ["markdown", "zola", "static site generators"]
         <img src="wp-spitting-dummy-bw.png" srcset="wp-spitting-dummy-bw.png 1024w, wp-spitting-dummy-bw.avif 1024w, wp-spitting-dummy-bw.heic 1024w, wp-spitting-dummy-bw.webp 1024w" alt="caption" />
 </figure>
 
-With all the controversy surrounding WordPress at the moment, it wouldn’t surprise me if there were people out there looking to jump ship. I think Mat Mullenweg spat his dummy out, personally; he’s like a smaller version of Elon Musk, and everyone knows what a deluded individual (I’m being nice here) he is.
+With all the controversy surrounding WordPress at the moment, it wouldn’t surprise me if there were people out there looking to jump ship. I think [Matt Mullenweg spat his dummy out](https://www.theverge.com/2024/10/4/24262232/matt-mullenweg-wordpress-org-wp-engine), personally; he’s like a smaller version of Elon Musk, and everyone knows what a deluded individual (I’m being nice here) he is.
 
 These are the options I have up to now. I haven’t tested them all. The furthest I have gone with most is to download, install from Terminal and look at the basics of how they work. Nothing beyond that, apart from Eleventy, Kirby and Jekyll. Eleventy looked like a workable solution till I got down to the nitty-gritty. The nitty-gritty did not look good, certainly for someone who might be considered a serial cut-and-paster.
 
