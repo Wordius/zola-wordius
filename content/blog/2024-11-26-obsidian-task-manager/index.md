@@ -85,4 +85,4 @@ Back on my my three pages, gardening, work and home, I started adding tasks. And
 
 The Tasks plugin has some useful [documentation](https://publish.obsidian.md/tasks/Introduction) to help you get started.
 
-[^1]: I say ‘early stage’, but it has been around for [more than 50 years](https://www.salesforce.com/blog/state-of-ai/). It is still too early to unleash on an unknowing, uncomprehending public. There needs to be more promotion of its uses and abuses. But the market remains largely unregulated, like a bunch of cowboys playing with loaded guns they don’t know how to use.
+[^1]: I say ‘early stage’, but artificial intelligence has been around since [the invention of computers](https://en.wikipedia.org/wiki/History_of_artificial_intelligence). It is still too early to unleash on an unknowing, uncomprehending public. There needs to be more promotion of its uses and abuses. But the market remains largely unregulated, like a bunch of cowboys playing with loaded guns they have no idea how to use.
