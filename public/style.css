@@ -492,6 +492,21 @@ blockquote p:last-child {
 	margin-top: 2rem;
 }
 
+.footnote-definition p {
+	font-size: var(--font-size-smmd);
+	line-height: 1.4;
+	display: inline;
+}
+
+sup {
+	vertical-align: super;
+	color: #990000;
+}
+
+pre:not([class*="language-"]) {
+	margin-bottom: 1rem;
+}
+
 /* COFFEE */
 
 .coffee {
