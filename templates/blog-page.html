@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 
 {% block content %}
 <article class="post">
@@ -12,7 +12,11 @@
     tags: 
     {% for tag in page.taxonomies.tags %}
     <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
-    {%- if not loop.last %}{{ ", " | safe }}{% endif -%}
+    
+    {%- if not loop.last %}
+      {{ ", " | safe }}
+    {% endif -%}
+    
     {% endfor %}
     {% endif %}
   </div> 
@@ -23,9 +27,8 @@
 
 </article>
 
- {% include "partials/coffee.html" %}
 
- {% if page.lower or page.higher %}
+<!-- {% if page.lower or page.higher %}
   <div class="post-nav">
     {% if page.lower %}
       <p><span class="post-nav-dir">Previous: </span><a class="previous" href="{{ page.lower.permalink }}">&lsaquo; {{ page.lower.title }}</a></p>
@@ -35,6 +38,6 @@
     {% endif %}
   </div>
 {% endif %}
-
+-->
 {% endblock content %}
 

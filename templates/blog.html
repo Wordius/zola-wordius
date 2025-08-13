@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 
 {% block content %}
 <!--<article class="post">-->
@@ -15,7 +15,7 @@
   <ul class="postlist">
     {% for post in paginator.pages %}
     <li class="postlist-item">
-      <div class="date>">
+      <div class="date">
         <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
       </div>
       <div class="postlist-head">

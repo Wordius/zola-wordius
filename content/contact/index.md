@@ -2,7 +2,7 @@
 title = "Contact"
 +++
 
-You can contact via either of the methods below:
+You can contact via any of the methods below, but email is likely to gain the quickest response:
 
 - [Mastodon](https://mastodon.social/@wordius)
 - [Bluesky](https://bsky.app/profile/wordius.bsky.social)

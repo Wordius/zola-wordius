@@ -5,34 +5,6 @@
     <p class="larger">Most things Apple… I’ve been working with Macs for over 30 years and I still learn something new every day. I share what I learn here under <a href="/blog">posts</a>. My <a href="/journal">journal</a> is for capturing everyday observations. Occasionally, I put up my published (in print) <a href="/journal/articles">articles</a>, my thoughts on <a href="/journal/stroke">stroke</a> and talk about my <a href="/journal/watches">watch</a> collection.</p>
   </div>
 
-  <!-- JOURNAL -->
-
-<h2 class="featured">Journal</h2>
-
-{% set post_section = get_section(path="journal/_index.md") %}
-{% set limit = 3 %}
-<ul class="postlist">
-  {% for post in post_section.pages %}
-  {% if loop.index <= limit %}
-  <li class="postlist-item">
-    <div class="postlist-date>">
-      <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
-    </div>
-    <div class="postlist-head">
-      <h2 class="postlist-title">
-         <a href="{{ post.permalink }}">{{ post.title }}</a>
-       </h2>
-   </div>
-   <p class="postlist-description">{{ post.description }}</p>
-  </li>
-{% if not loop.index == limit %}
-{% endif %}
-</ul>  
-{% endif %}
-{% endfor %}
-
-<p><a href="/journal/">More in the journal</a></p>
-
   <!-- BLOG -->
 
   <h2 class="featured">Latest post</h2>
@@ -61,6 +33,31 @@
 
   <p><a href="/blog/">More in the blog</a></p>
 
+  <!-- JOURNAL -->
+<h2 class="featured">Journal</h2><!--{{ section.title }}-->
 
+{% set post_section = get_section(path="journal/_index.md") %}
+{% set limit = 3 %}
+<ul class="postlist">
+  {% for post in post_section.pages %}
+  {% if loop.index <= limit %}
+  <li class="postlist-item">
+    <div class="postlist-date>">
+      <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+    </div>
+    <div class="postlist-head">
+      <h2 class="postlist-title">
+         <a href="{{ post.permalink }}">{{ post.title }}</a>
+       </h2>
+   </div>
+   <p class="postlist-description">{{ post.description }}</p>
+  </li>
+{% if not loop.index == limit %}
+{% endif %}
+</ul>  
+{% endif %}
+{% endfor %}
+
+<p><a href="/journal/">More in the journal</a></p>
 
 {% endblock content %}

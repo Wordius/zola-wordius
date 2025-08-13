@@ -51,5 +51,6 @@ github_username = "wordius"
 enable = true
 host = "mastodon.social"
 user = "wordius"
+
 # Mastodon id
 mastodon_id = "string"

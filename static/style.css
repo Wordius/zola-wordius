@@ -115,9 +115,9 @@ p:last-child {
 	font-family: var(--font-family-text);
 	line-height: 1.5;
 }
-main {
-	padding: .5rem;
-}
+/*main {
+	padding: 0.5rem;
+}*/
 
 /* Header */
 
