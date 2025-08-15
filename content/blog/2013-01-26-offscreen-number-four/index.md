@@ -2,6 +2,7 @@
 title = "Offscreen 4 – I got what I paid for"
 description = "Offscreen is a magazine about web workers not web working. It’s much better than that sounds, believe me"
 date = 2013-01-26
+alias = ["http://wordius.com/offscreen-number-four"]
 [taxonomies]
 tags = ["web design", "books"]
 +++
