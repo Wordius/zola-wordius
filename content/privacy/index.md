@@ -2,7 +2,7 @@
 title = "Privacy"
 +++
 
-_This pages was last updated on 31 July 2024_.
+_This page was last updated on 31 July 2024_.
 
 No legalese here. I am not a solicitor (read lawyer), nor am I involved in the legal profession in any other way. 
 
