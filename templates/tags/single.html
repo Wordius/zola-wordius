@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <!--{% block title %}
+    {{ term.name | capitalize }} &middot; {{ config.title }}
+  {% endblock title %}-->
+
+  <h1 class="term-title">{{ term.name | capitalize }}</h1>
+
+  <section class="postlist-item">
+    {% for page in term.pages | sort(attribute="date") | reverse %}
+      {% if page.date %}
+      <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
+      {% endif %}
+      <h2><a class="postlist-title" href="{{ page.permalink }}">{{ page.title }}</a></h2>
+    {% endfor %}
+  </section>
+
+  <hr>
+  
+  {% endblock content %}

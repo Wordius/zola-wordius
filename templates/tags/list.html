@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="postlist-header">
+  <h1>Tags</h1>
+</section>
+
+<ul>
+{% if page.taxonomies.tags %} 
+  {% for tag in page.taxonomies.tags %}
+  <li>
+    <a href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+  </li>
+  {% endfor %}
+{% endif %}
+</ul>
+{% endblock content %}
+
