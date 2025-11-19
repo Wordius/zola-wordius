@@ -415,6 +415,16 @@ article p, article ul, article ol {
 	letter-spacing: 1px;
 }
 
+/* TERMS */
+
+.terms-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.terms-tags > * {
+  flex: 1 1 30ch;
+}
+
 /* Aside */
 
 p {
