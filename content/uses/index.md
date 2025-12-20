@@ -7,11 +7,12 @@ title = "The software I use"
 <p class="larger">As I’ve got older, my life has become ever more Apple-centric. That may be a bad choice. We shall see.</p>
 </div>
 
-- **Adobe**: InDesign, Photoshop, Illustrator, Affinity
+- **Adobe**: InDesign, Photoshop, Illustrator (Affinity is being tested as I write as a replacment for all three Adobe products; I also find Gimp useful occasionally) 
 - **Mail client**: Mailspring (testing), Spark (iOS), Thunderbird
 - **Mail server**: iCloud+
 - **Static site generator**: [Zola](https://getzola.org)
-- **Notes and other writing**: Obsidian
+- **Writing**: Obsidian
+- **Notes**: Logseq
 - **To do**: Logseq, iOS Reminders
 - **iPhone photo shooting**: Camera app
 - **Photo management**: Apple Photos
