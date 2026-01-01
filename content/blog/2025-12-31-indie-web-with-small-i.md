@@ -1,7 +1,7 @@
 +++
 title = "I’m part of the indie web with a small ‘i’"
 description = "Being part of the IndieWeb is not for everyone, me included, but that doesn’t stop you participating in the IndieWeb Carnival"
-date = 2026-12-31
+date = 2025-12-31
 [taxonomies]
 tags = ["indie web", "IndieWeb", "RSS"]
 +++
