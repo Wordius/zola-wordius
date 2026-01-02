@@ -465,6 +465,9 @@ aside {
 	text-transform: capitalize;
 	font-style: italic;
 }
+.post-tag span {
+	color: #333;
+}
 .postlist-item > .post-tag {
 	align-self: center;
 }

@@ -8,13 +8,15 @@
 
   <h1 class="term-title">{{ term.name | capitalize }}</h1>
 
-  <section class="postlist-item">
+  <ul class="postlist">
     {% for page in term.pages | sort(attribute="date") | reverse %}
       {% if page.date %}
+      <li  class="postlist-item">
       <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
       {% endif %}
       <h2><a class="postlist-title" href="{{ page.permalink }}">{{ page.title }}</a></h2>
     {% endfor %}
-  </section>
+      </li>
+      </ul>
 
   {% endblock content %}
