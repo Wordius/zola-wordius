@@ -14,11 +14,11 @@ ZOLA_VERSION = "0.19.1"
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
-[[redirects]]
-  from = "/.well-known/host-meta*"
-  to = "https://fed.brid.gy/.well-known/host-meta:splat"
-  status = 302
-[[redirects]]
-  from = "/.well-known/webfinger*"
-  to = "https://fed.brid.gy/.well-known/webfinger"
-  status = 302
+#[[redirects]]
+#  from = "/.well-known/host-meta*"
+#  to = "https://fed.brid.gy/.well-known/host-meta:splat"
+#  status = 302
+#[[redirects]]
+#  from = "/.well-known/webfinger*"
+#  to = "https://fed.brid.gy/.well-known/webfinger"
+#  status = 302
