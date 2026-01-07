@@ -14,7 +14,7 @@ ZOLA_VERSION = "0.19.1"
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
-#[[redirects]]
+#[[redirects]] changed
 #  from = "/.well-known/host-meta*"
 #  to = "https://fed.brid.gy/.well-known/host-meta:splat"
 #  status = 302
