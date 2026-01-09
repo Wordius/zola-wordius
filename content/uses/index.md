@@ -1,5 +1,6 @@
 +++
 title = "The software I use"
+updated = 2026-01-09
 +++
 
 <div class="page-intro"> 
@@ -8,7 +9,7 @@ title = "The software I use"
 </div>
 
 - **Adobe**: InDesign, Photoshop, Illustrator (Affinity is being tested as I write as a replacment for all three Adobe products; I also find Gimp useful occasionally) 
-- **Mail client**: Mailspring (testing), Spark (iOS), Thunderbird
+- **Mail client**: Mailspring (testing), [Airmail](https://airmailapp.com/) (iOS), Thunderbird (macOS)
 - **Mail server**: iCloud+
 - **Static site generator**: [Zola](https://getzola.org)
 - **Writing**: Obsidian
