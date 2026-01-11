@@ -3,7 +3,7 @@ title = "About"
 +++
 
 <div class="img-container">
-{{ image_full(path="/about/roma-and-dotty-2.heic", caption="Our two lurchers, Roma, left, and Dotty: why use two couches when you can share one? Roma passed away in 2022, aged 13 years") }}
+{{ image_full(path="/about/roma-and-dotty-2.png", caption="Our two lurchers, Roma, left, and Dotty: why use two couches when you can share one? Roma passed away in 2022, aged 13 years") }}
 </div>
 
 This website is not about the Next Big Thing to come out of Apple – although you may discover the occasional update here – but about second-hand Macs, iPhones, iPads, and ancillary equipment, and free, occasionally, paid-for software. There has to be a good reason when I pay for software.
