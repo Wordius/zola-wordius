@@ -115,6 +115,9 @@ p:last-child {
 	font-family: var(--font-family-text);
 	line-height: 1.5;
 }
+hr {
+	margin-bottom: 3rem;
+}
 /*main {
 	padding: 0.5rem;
 }*/
