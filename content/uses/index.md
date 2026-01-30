@@ -1,6 +1,6 @@
 +++
 title = "The software I use"
-updated = 2026-01-28
+updated = 2026-01-30
 +++
 
 <div class="page-intro"> 
@@ -8,9 +8,13 @@ updated = 2026-01-28
 <p class="larger">As I’ve got older, my life has become ever more Apple-centric. But I have started the process of moving away fron the US, and switching my focus to Europe. Let’s see how I’m doing</p>
 </div>
 
+### Software
+
+US, I assume, unless specified otherwise.
+
 - **Adobe**: InDesign, Photoshop, Illustrator (Affinity is being tested as I write as a replacment for all three Adobe products; I also find Gimp useful occasionally) 
 - **Mail client**: [Mailbox](https://mailbox.org) (Germany, macOS), [Airmail](https://airmailapp.com/) (Italy, iOS), ~~Apple Mail~~, ~~Mailspring (testing)~~, ~~Thunderbird (macOS)~~
-- **Mail server**: [Mailbox](https://mailbox.org)
+- **Mail server**: [Mailbox](https://mailbox.org) (Germany)
 - **Static site generator**: [Zola](https://getzola.org)
 - **Writing**: [FSNotes](https://fsnot.es) (Ukraine), ~~Obsidian~~
 - **Notes**: Logseq, tasks
@@ -18,9 +22,10 @@ updated = 2026-01-28
 - **iPhone photo shooting**: Camera app
 - **Photo management**: [Pixea](https://apps.apple.com/gb/app/pixea/id1507782672?mt=12)
 - **Calendar:** Fantastical, Apple Calendar. It’s worth noting here that Thunderbird has a great calendar, whereby you can show a snapshot of the week ahead. You can display it in the right sidebar so that it doesn’t get in the way of your email
-- **Cloud file storage:** [Mailbox](https://mailbox.org), iCloud 
+- **Cloud file storage:** [Mailbox](https://mailbox.org) (Germany), iCloud 
 - **Contacts**: Apple Contacts
-- **Browser:** Vivaldi (Norway), ~~Safari and Zen Browser~~
+- **Browser:** Vivaldi (Norway, macOS), Safari (iOS)~~Zen Browser~~
+- **Search**: [Ecosia](https://www.ecosia.org) (Germany)
 - **Chat**: Apple Messages, Signal
 - **Bookmarks**: Raindrop.io
 - **RSS**: NetNewsWire (macOS and iOS), ~~Reeder~~ (iOS) and ~~ReadKit~~), ~~Omnivore~~
@@ -32,3 +37,10 @@ updated = 2026-01-28
 - **News**: When I have time, I look
 - **Password management**: Bitwarden (~~1Password~~) and Apple Keychain
 - **Mastodon**: Metatext and the browser
+
+### Web
+
+- **Static site manager**: [Zola](https://getzola.org)
+- **Domain registrar**: Hostinger
+- **Hosting**: [StaticHostEU](https://statichost.eu)
+- **Storage**: [Codeberg](https://codeberg.org)
