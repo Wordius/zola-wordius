@@ -1,6 +1,6 @@
 +++
 title = "The software I use"
-updated = 2026-01-30
+updated = 2026-01-31
 +++
 
 <div class="page-intro"> 
@@ -10,7 +10,7 @@ updated = 2026-01-30
 
 ### Software
 
-US, I assume, unless specified otherwise.
+Assume USA unless specified otherwise.
 
 - **Adobe**: InDesign, Photoshop, Illustrator (Affinity is being tested as I write as a replacment for all three Adobe products; I also find Gimp useful occasionally) 
 - **Mail client**: [Mailbox](https://mailbox.org) (Germany, macOS), [Airmail](https://airmailapp.com/) (Italy, iOS), ~~Apple Mail~~, ~~Mailspring (testing)~~, ~~Thunderbird (macOS)~~
